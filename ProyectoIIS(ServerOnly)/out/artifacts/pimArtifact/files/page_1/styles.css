@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:919px;
+  width:923px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -12,7 +12,7 @@
   position:absolute;
   z-index:0;
 }
-#u19_div {
+#u55_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -31,7 +31,7 @@
   font-style:normal;
   text-align:center;
 }
-#u19 {
+#u55 {
   border-width:0px;
   position:absolute;
   left:525px;
@@ -43,11 +43,11 @@
   font-style:normal;
   text-align:center;
 }
-#u19_text {
+#u55_text {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:394px;
+  width:398px;
   white-space:nowrap;
 }
