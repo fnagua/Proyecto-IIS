@@ -29,38 +29,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/home.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="542" lean-forward="true" selection-start-line="542" selection-end-line="542" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cuestionario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +48,7 @@
       <find>tiene alguna preferencia en cuánto a su</find>
       <find>tiene alguna preferencia en cuánto a su me</find>
       <find>&quot;U43</find>
+      <find>Componentes.</find>
     </findStrings>
     <replaceStrings>
       <replace>Respuesta2</replace>
@@ -87,14 +57,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/web/start.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start_g_0.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_3.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/RAM.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Cuestionario_idk.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/page_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Perifericos.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Refrigeracion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/start_c_1.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/home.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start_g_0.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Placa_Base.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/CPU.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Usuario.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_3.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Grafica.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/home.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/BDComponentes.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,10 +98,20 @@
         <option value="$PROJECT_DIR$/web/page_2.xhtml" />
         <option value="$PROJECT_DIR$/web/start.xhtml" />
         <option value="$PROJECT_DIR$/web/index.xhtml" />
-        <option value="$PROJECT_DIR$/src/ConfiguradorPCs.java" />
         <option value="$PROJECT_DIR$/web/home.html" />
         <option value="$PROJECT_DIR$/src/Cuestionario.java" />
+        <option value="$PROJECT_DIR$/src/Placa_Base.java" />
+        <option value="$PROJECT_DIR$/src/Grafica.java" />
+        <option value="$PROJECT_DIR$/src/Fuente_Alimentacion.java" />
+        <option value="$PROJECT_DIR$/src/Disco_Duro.java" />
+        <option value="$PROJECT_DIR$/src/Carcasa.java" />
+        <option value="$PROJECT_DIR$/src/Tarjeta_Red.java" />
+        <option value="$PROJECT_DIR$/src/Refrigeracion.java" />
+        <option value="$PROJECT_DIR$/src/Perifericos.java" />
+        <option value="$PROJECT_DIR$/src/Componentes/Perifericos.java" />
         <option value="$PROJECT_DIR$/web/home.xhtml" />
+        <option value="$PROJECT_DIR$/src/Cuestionario_idk.java" />
+        <option value="$PROJECT_DIR$/src/ConfiguradorPCs.java" />
       </list>
     </option>
   </component>
@@ -139,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -153,22 +146,18 @@
               <item name="ProyectoIIS(ServerOnly)" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProyectoIIS(ServerOnly)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectoIIS(ServerOnly)" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558480710983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558481717436" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -296,12 +285,13 @@
       <workItem from="1558463548236" duration="4584000" />
       <workItem from="1558468973871" duration="215000" />
       <workItem from="1558469217321" duration="5225000" />
-      <workItem from="1558474940560" duration="5719000" />
+      <workItem from="1558474940560" duration="5983000" />
+      <workItem from="1558481010572" duration="703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29084000" />
+    <option name="totallyTimeSpent" value="30051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,9 +304,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="0" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16260162" visible="true" weight="0.090618335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16260162" visible="true" weight="0.19029851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -326,7 +315,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5506937" />
       <window_info anchor="bottom" id="Web" order="2" sideWeight="0.83739835" weight="0.16008538" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49959514" visible="true" weight="0.28922093" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49959514" weight="0.28922093" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4989059" weight="0.35344827" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -412,48 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BDComponentes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RAM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/scripts/messagecenter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -527,27 +474,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cuestionario.java">
+    <entry file="file://$PROJECT_DIR$/web/home.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="312">
+          <caret line="506" column="108" lean-forward="true" selection-start-line="506" selection-start-column="108" selection-end-line="506" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BDComponentes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/Cuestionario_idk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="542" lean-forward="true" selection-start-line="542" selection-end-line="542" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Refrigeracion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/RAM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Placa_Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Perifericos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Grafica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
