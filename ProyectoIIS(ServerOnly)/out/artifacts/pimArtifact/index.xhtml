@@ -1,31 +1,37 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>Untitled Document</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
-    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
-    <!--<link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>-->
+  <title>Untitled Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
+  <link type="text/css" href="resources/css/default.css" rel="Stylesheet" /><!--<link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>-->
 
-    <script type="text/javascript">
+<script type="text/javascript" xml:space="preserve">
+//<![CDATA[
         if (location.href.toString().indexOf('file://localhost/') == 0) {
             location.href = location.href.toString().replace('file://localhost/', 'file:///');
         }
-    </script>
+//]]>
+</script><!-- 8.0.0.3382 -->
 
-    <!-- 8.0.0.3382 -->
-<script src="resources/scripts/jquery-1.7.1.min.js"></script>
-<script src="resources/scripts/startPre.js"></script>
-<script src="data/document.js"></script>
+<script src="resources/scripts/jquery-1.7.1.min.js" type="text/javascript" xml:space="preserve">
+</script>
+<script src="resources/scripts/startPre.js" type="text/javascript" xml:space="preserve">
+</script>
+<script src="data/document.js" type="text/javascript" xml:space="preserve">
+</script>
+<style type="text/css" xml:space="preserve">
 
-    <style type="text/css">
 
 #outerContainer {
-	width:1000px;
-	height:1500px;
+    width:1000px;
+    height:1500px;
 }
 
 .vsplitbar {
@@ -57,8 +63,9 @@
    z-index: 20000;
 }
 
-    </style>
-    <script type="text/javascript" language="JavaScript"><!--
+
+</style>
+<script type="text/javascript" language="JavaScript" xml:space="preserve">
         var SITEMAP_COLLAPSE_VAR_NAME = 'c';
         var PLUGIN_VAR_NAME = 'g';
         var FOOTNOTES_VAR_NAME = 'fn';
@@ -69,7 +76,7 @@
         // isolate scope
         (function() {
             setUpController();
-            
+
             var configuration = $axure.document.configuration;
             var _settings = {};
             _settings.projectId = configuration.prototypeId;
@@ -117,7 +124,7 @@
                 if($axure.player.settings.startCollapsed) $('#outerContainer').splitter({ sizeLeft: 0 });
                 else $('#outerContainer').splitter({ sizeLeft: lastLeftPanelWidth });
                 $('#leftPanel').width(lastLeftPanelWidth);
-                
+
                 $(window).resize(function() { resizeContent(); });
 
                 $('#maximizePanelContainer').hide();
@@ -126,7 +133,7 @@
 
                 $(window).resize();
                 resizeContent();
-                
+
                 $axure.player.collapseToBar();
 
                 if($axure.player.settings.startCollapsed) {
@@ -197,7 +204,7 @@
                         $axure.player.resizeContent();
                     };
                     image.src = $axure.document.configuration.logoImagePath;
-                
+
                     $('#interfaceControlFrameLogoImageContainer').html('<img id="logoImage" src="" />');
                     $('#logoImage').attr('src', $axure.document.configuration.logoImagePath).load(function() { resizeContent(); });
                 } else $('#interfaceControlFrameLogoImageContainer').hide();
@@ -266,7 +273,7 @@
             else if(message == 'getCollapseFrameOnLoad' && $axure.player.settings.startCollapsed && !MOBILE_DEVICE) $axure.messageCenter.postMessage('collapseFrameOnLoad');
         }
 
-        
+
         function getInitialUrl() {
             var pageName = getHashStringVar("p");
             if(pageName.length > 0) return pageName + ".html";
@@ -309,7 +316,7 @@
                 try {
                     //Chrome 45 (Version 45.0.2454.85 m) started throwing an error here when generated locally (this only happens with sitemap open) which broke all interactions.
                     //try catch breaks the url adjusting nicely when the sitemap is open, but all interactions and forward and back buttons work.
-                    //Uncaught SecurityError: Failed to execute 'replaceState' on 'History': A history state object with URL 'file:///C:/Users/Ian/Documents/Axure/HTML/Untitled/start.html#p=home' cannot be created in a document with origin 'null'.
+                    start.xhtml
                     window.history.replaceState(null, null, currentLocWithoutHash + newHash);
                 } catch(ex) {}
             } else {
@@ -370,7 +377,7 @@
             if(qstring.length < 2) return "";
             return GetParameter(qstring, query);
         }
-        
+
         function GetParameter(qstring, query) {
             var prms = qstring[1].split("&");
             var frmelements = new Array();
@@ -391,7 +398,7 @@
             }
             return querystr;
         }
-        
+
         function getHashStringVar(query) {
             var qstring = self.location.href.split("#");
             if(qstring.length < 2) return "";
@@ -468,52 +475,56 @@
                 replaceHash(newHash);
             }
         }
-    --></script>
-    
-    <link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css" />
-    <script src="resources/scripts/startPost.js"></script>
-
-
-    <!--<link type="text/css" rel="Stylesheet" href="plugins/recordplay/styles/recordplay.css" />
+</script>
+  <link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
+  <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
+  <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css" />
+<script src="resources/scripts/startPost.js" type="text/javascript" xml:space="preserve">
+</script><!--<link type="text/css" rel="Stylesheet" href="plugins/recordplay/styles/recordplay.css" />
     <script type="text/javascript" src="plugins/recordplay/recordplay.js"></script>-->
-    
 
+<style type="text/css" xml:space="preserve">
+/*<![CDATA[*/
+ iframe.c1 {display: block;}
+/*]]>*/
+</style>
 </head>
-<body scroll="no" class="hashover">
-    <div id="outerContainer">
 
-        <div id="leftPanel">
-            <div id="interfaceControlFrame">
-                <div id="interfaceControlFrameMinimizeContainer">
-                    <a title="Collapse" id="interfaceControlFrameMinimizeButton" onclick="collapse();">&nbsp;</a>
-                </div>
-                <div id="interfaceControlFrameHeaderContainer">
-                    <ul id="interfaceControlFrameHeader"></ul>
-                </div>
-                <div id="interfaceControlFrameContainer">
-                    <div id="interfaceControlFrameLogoContainer">
-                        <div id="interfaceControlFrameLogoImageContainer"></div>
-                        <div id="interfaceControlFrameLogoCaptionContainer"></div>
-                    </div>
-                    <div id="interfaceControlFrameHostContainer">
-                    </div>
-                </div>
-                <div id="interfaceControlFrameCloseContainer">
-                    <a title="Close" id="interfaceControlFrameCloseButton" onclick="closePlayer();">CLOSE</a>
-                </div>
-            </div>
-        </div>
-        <div id="rightPanel">
-            <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="" frameborder="0" style="display: block;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<body class="hashover">
+  <div id="outerContainer">
+    <div id="leftPanel">
+      <div id="interfaceControlFrame">
+        <div id="interfaceControlFrameMinimizeContainer">
+          <a title="Collapse" id="interfaceControlFrameMinimizeButton" onclick="collapse();" name="interfaceControlFrameMinimizeButton"></a>
         </div>
 
+        <div id="interfaceControlFrameHeaderContainer">
+          <ul id="interfaceControlFrameHeader"></ul>
+        </div>
+
+        <div id="interfaceControlFrameContainer">
+          <div id="interfaceControlFrameLogoContainer">
+            <div id="interfaceControlFrameLogoImageContainer"></div>
+
+            <div id="interfaceControlFrameLogoCaptionContainer"></div>
+          </div>
+
+          <div id="interfaceControlFrameHostContainer"></div>
+        </div>
+
+        <div id="interfaceControlFrameCloseContainer">
+          <a title="Close" id="interfaceControlFrameCloseButton" onclick="closePlayer();" name="interfaceControlFrameCloseButton">CLOSE</a>
+        </div>
+      </div>
     </div>
 
-    <div id="maximizePanelContainer">
-        <iframe id="expandFrame" src="resources/expand.html" width="100%" height="100%" scrolling="no" allowtransparency="true" frameborder="0"></iframe>
+    <div id="rightPanel">
+      <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="" frameborder="0" class="c1"></iframe>
     </div>
+  </div>
 
+  <div id="maximizePanelContainer">
+    <iframe id="expandFrame" src="resources/expand.html" width="100%" height="100%" scrolling="no" frameborder="0" name="expandFrame"></iframe>
+  </div>
 </body>
 </html>

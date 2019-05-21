@@ -4,7 +4,14 @@
     <option name="state">
       <map>
         <entry key="file://$PROJECT_DIR$/web/home.html" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/home.xhtml" value="file://$PROJECT_DIR$/web" />
         <entry key="file://$PROJECT_DIR$/web/index.xhtml" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/page_1.xhtml" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/page_2.xhtml" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/page_3.xhtml" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/start.xhtml" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/start_c_1.xhtml" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/start_g_0.xhtml" value="file://$PROJECT_DIR$/web" />
       </map>
     </option>
   </component>
