@@ -10,7 +10,8 @@ public class CPU {
 	private int consumo;//W
 	private int bit;
 	private int precio;
-	public CPU(String marca,String modelo,int frecuenciaBase,String socket,int frecuenciaMem,String tecnologiaMem,int maxMem,int consumo,int bit,int precio){
+	private String link;//link a la pagina web
+	public CPU(String marca,String modelo,int frecuenciaBase,String socket,int frecuenciaMem,String tecnologiaMem,int maxMem,int consumo,int bit,int precio,String link){
 		this.marca= marca;
 		this.modelo=modelo;
 		this.frecuenciaBase=frecuenciaBase;
@@ -21,6 +22,7 @@ public class CPU {
 		this.consumo=consumo;
 		this.bit=bit;
 		this.precio=precio;
+		this.link=link;
 	}
 	public String getMarca() {
 		return marca;
