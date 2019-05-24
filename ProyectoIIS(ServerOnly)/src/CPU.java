@@ -1,4 +1,3 @@
-
 public class CPU {
 	private String marca;
 	private String modelo;
@@ -53,5 +52,8 @@ public class CPU {
 	}
 	public int getPrecio() {
 		return precio;
+	}
+	public String getLink(){
+		return link;
 	}
 }
