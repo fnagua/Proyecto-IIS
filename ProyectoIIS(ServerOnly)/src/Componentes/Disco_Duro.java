@@ -6,4 +6,5 @@ public class Disco_Duro
     private float precio;
     private int capacidad;
     private String tecnologia;
+
 }
