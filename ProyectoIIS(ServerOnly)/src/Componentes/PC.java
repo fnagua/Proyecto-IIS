@@ -60,6 +60,10 @@ public class PC
 
     public void setGrafica (Grafica g) {
         this.componentes.add(3,g);
-        this.precioAcumulado += g.getPrecio()
+        this.precioAcumulado += g.getPrecio();
+    }
+
+    public Grafica getGrafica () {
+        return (Grafica) this.componentes.get(3); 
     }
 }
