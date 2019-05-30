@@ -64,6 +64,18 @@ public class PC
     }
 
     public Grafica getGrafica () {
-        return (Grafica) this.componentes.get(3); 
+        return (Grafica) this.componentes.get(3);
     }
+
+    public void setDiscoDuro (Disco_Duro dd) {
+        this.componentes.add(4,dd);
+        this.precioAcumulado += dd.getPrecio();
+
+    }
+
+    public Disco_Duro getDisco_Duro () {
+        return (Disco_Duro) this.componentes.get(4);
+    }
+
+    
 }
