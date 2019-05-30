@@ -10,9 +10,21 @@ public class PC
 {
 
     private List<Componente> componentes;
+    private float precioMax;
+    private float precioAcumulado;
 
-    public PC () {
+    public PC (float precioMax) {
         this.componentes = new LinkedList<Componente>();
+        this.precioMax = precioMax;
+        this.precioAcumulado = 0;
+    }
+
+    public float getPrecioMax() {
+        return precioMax;
+    }
+
+    public float getPrecioAcumulado() {
+        return precioAcumulado;
     }
 
     public List<Componente> getComponentes() {
@@ -21,6 +33,7 @@ public class PC
 
     public void setCPU (CPU cpu) {
         componentes.add(0,cpu);
+        this.precioAcumulado += cpu.getPrecio();
     }
 
     public CPU getCPU () {

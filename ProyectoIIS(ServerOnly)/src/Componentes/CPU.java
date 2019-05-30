@@ -39,7 +39,17 @@ public class CPU implements Componente{
 	public boolean getCompatibilidad(PC pc) {
 		boolean res = false;
 
-		if (pc.getComponentes().isEmpty()) {
+		if (pc.getComponentes().isEmpty() && cumplePresupuesto(pc) ) {
+			res = true;
+		}
+
+		return res;
+	}
+
+	private boolean cumplePresupuesto(PC pc) {
+		boolean res = false;
+
+		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {
 			res = true;
 		}
 
