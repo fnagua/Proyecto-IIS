@@ -1,6 +1,6 @@
 package Componentes;
 
-public class RAM
+public class RAM implements Componente
 {
 
 	private String nombre;//marca+modelo
@@ -31,5 +31,25 @@ public class RAM
 		return frecuencia;
 	}
 
+	public boolean getCompatibilidad(PC pc) {
+		boolean res = false;
+
+
+		if (pc.getCPU().getFrecuenciaMem() >=  this.frecuencia && cumplePresupuesto(pc) ) {
+			res = true;
+		}
+
+		return res;
+	}
+
+	private boolean cumplePresupuesto(PC pc) {
+		boolean res = false;
+
+		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {
+			res = true;
+		}
+
+		return res;
+	}
 
 }

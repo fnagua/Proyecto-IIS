@@ -40,6 +40,14 @@ public class PC
         return (CPU) componentes.get(0);
     }
 
+    public void setRAM (RAM ram) {
+        this.componentes.add(1,ram);
+        this.precioAcumulado += ram.getPrecio();
+    }
+
+    public RAM getRAM () {
+        return (RAM) this.componentes.get(1);
+    }
 
 
 }
