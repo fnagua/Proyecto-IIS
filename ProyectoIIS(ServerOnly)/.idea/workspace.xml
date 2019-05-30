@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Componentes/PC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+            <state relative-caret-position="529">
+              <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
@@ -60,6 +60,11 @@
                 <element signature="e#1786#1787#0" expanded="true" />
                 <element signature="e#1846#1847#0" expanded="true" />
                 <element signature="e#2002#2003#0" expanded="true" />
+                <element signature="e#2059#2060#0" expanded="true" />
+                <element signature="e#2242#2243#0" expanded="true" />
+                <element signature="e#2304#2305#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
+                <element signature="e#2560#2561#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -439,12 +444,12 @@
       <workItem from="1558474940560" duration="5983000" />
       <workItem from="1558481010572" duration="703000" />
       <workItem from="1559227319715" duration="779000" />
-      <workItem from="1559228499956" duration="6303000" />
+      <workItem from="1559228499956" duration="6665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37133000" />
+    <option name="totallyTimeSpent" value="37495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/PC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+        <state relative-caret-position="529">
+          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
@@ -832,6 +837,11 @@
             <element signature="e#1786#1787#0" expanded="true" />
             <element signature="e#1846#1847#0" expanded="true" />
             <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
           </folding>
         </state>
       </provider>

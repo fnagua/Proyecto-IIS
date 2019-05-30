@@ -95,7 +95,14 @@ public class PC
         return  (Tarjeta_Red) this.componentes.get(6);
     }
 
-    
+    public void setFuenteAlimentacion (Fuente_Alimentacion fa) {
+        this.componentes.add(7,fa);
+        this.precioAcumulado += fa.getPrecio();
+    }
+
+    public Fuente_Alimentacion getFuenteAlimentacion () {
+        return  (Fuente_Alimentacion) this.componentes.get(7);
+    }
 
 
 }
