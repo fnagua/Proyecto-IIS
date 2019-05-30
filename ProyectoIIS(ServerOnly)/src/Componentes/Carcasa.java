@@ -7,7 +7,7 @@ public class Carcasa {
 	private float tamFuente;
 	private int ilum;//0 = no incorpora; 1 = incorpora
 
-	public Carcasa(String nombre, float precio, float tamPlaca, float tamFuente, int ilum) {
+	public Carcasa(String nombre,float tamPlaca, float tamFuente, int ilum,float precio) {
 		this.nombre = nombre;
 		this.precio = precio;
 		this.tamPlaca = tamPlaca;
