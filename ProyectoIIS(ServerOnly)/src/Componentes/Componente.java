@@ -2,6 +2,8 @@ package Componentes;
 
 public interface Componente {
 
-    public boolean getCompatibilidad(PC pc);
+    boolean getCompatibilidad(PC pc);
+
+    boolean cumplePresupuesto(PC pc);
 
 }
