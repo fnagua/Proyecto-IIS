@@ -1,2 +1,4 @@
-public interface Componente {
+public interface Componente
+{
+    public boolean getCompatibilidad();
 }
