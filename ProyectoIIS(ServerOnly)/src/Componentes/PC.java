@@ -83,8 +83,19 @@ public class PC
     }
 
     public Carcasa getCarcasa () {
-        return (Carcasa) this.componentes.get(5); 
+        return (Carcasa) this.componentes.get(5);
     }
+
+    public void setTarjetaRed (Tarjeta_Red tr) {
+        this.componentes.add(6,tr);
+        this.precioAcumulado += tr.getPrecio();
+    }
+
+    public Tarjeta_Red getTarjetaRed () {
+        return  (Tarjeta_Red) this.componentes.get(6);
+    }
+
+    
 
 
 }
