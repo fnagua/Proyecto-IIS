@@ -1,3 +1,5 @@
+package Componentes;
+
 public class CPU {
 	private String marca;
 	private String modelo;

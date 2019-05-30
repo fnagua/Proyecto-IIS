@@ -1,3 +1,5 @@
+package Componentes;
+
 public class RAM {
 	private String marca;
 	private String modelo;
