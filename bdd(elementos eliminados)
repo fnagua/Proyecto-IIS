@@ -53,7 +53,7 @@ AMD;Athlon 240GE;AM4;2667;DDR4;71’99;
 AMD;A12-9800E;AM4;2400;DDR4;104’99;
 ----------------------------------------------------------------
 CAJA: 6 total
-Marca/Modelo;Tamaño Placa;Tamaño Fuente;Iluminacion(0,1);Ventilacion Incorporada(0,1);Precio;
+Marca/Modelo;Tamaño Placa;Tamaño Fuente;Iluminacion(0,1);ºPrecio;
 
 Tempest;Spectra;ATX;ATX;1;34’99;
 Tempest;Ghost;ATX;ATX;1;59’99;
