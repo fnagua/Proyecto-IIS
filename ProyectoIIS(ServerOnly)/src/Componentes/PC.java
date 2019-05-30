@@ -77,5 +77,14 @@ public class PC
         return (Disco_Duro) this.componentes.get(4);
     }
 
-    
+    public void setCarcasa (Carcasa c) {
+        this.componentes.add(5,c);
+        this.precioAcumulado += c.getPrecio();
+    }
+
+    public Carcasa getCarcasa () {
+        return (Carcasa) this.componentes.get(5); 
+    }
+
+
 }
