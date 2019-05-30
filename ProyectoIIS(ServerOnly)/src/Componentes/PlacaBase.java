@@ -7,6 +7,11 @@ public class PlacaBase implements Componente
 	private String socket;
 	private int frecuenMem;//MHz
 	private int tamanio;
+	private int consumo;
+
+	public int getConsumo() {
+		return consumo;
+	}
 
 	public PlacaBase(String nombre, String socket, int freq, int tamanio, float precio)
 	{
@@ -57,14 +62,14 @@ public class PlacaBase implements Componente
 		this.frecuenMem = frecuenMem;
 	}
 
-	public int getTamaño()
+	public int getTamanio()
 	{
 		return tamanio;
 	}
 
-	public void setTamaño(int tamaño)
+	public void setTamanio(int tamanio)
 	{
-		this.tamanio = tamaño;
+		this.tamanio = tamanio;
 	}
 
 	@Override
@@ -73,9 +78,10 @@ public class PlacaBase implements Componente
 		boolean ok = false;
 		if(pc.getRAM().getFrecuencia()<=this.frecuenMem && cumplePresupuesto(pc))
 		{
+			ok=true;
 
 		}
-		return false;
+		return ok && cumplePresupuesto(pc);
 	}
 
 	public boolean cumplePresupuesto(PC pc)

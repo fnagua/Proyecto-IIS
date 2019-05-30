@@ -8,7 +8,14 @@ public class RAM implements Componente
 	private int capacidad;
 	private int frecuencia;
 
-	public RAM(String nombre, float precio, int capacidad, int frecuencia) {
+	public int getConsumo() {
+		return consumo;
+	}
+
+	private int consumo;
+
+	public RAM(String nombre, float precio, int capacidad, int frecuencia, int consumo)
+	{
 		this.nombre = nombre;
 		this.precio = precio;
 		this.capacidad = capacidad;
@@ -42,10 +49,12 @@ public class RAM implements Componente
 		return res;
 	}
 
-	private boolean cumplePresupuesto(PC pc) {
+	public boolean cumplePresupuesto(PC pc)
+	{
 		boolean res = false;
 
-		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {
+		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax())
+		{
 			res = true;
 		}
 

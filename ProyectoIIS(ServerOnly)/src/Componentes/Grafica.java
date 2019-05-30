@@ -1,44 +1,52 @@
 package Componentes;
 
-public class Grafica
+public class Grafica implements Componente
 {
     private String nombre;//marca+modelo
     private float precio;
-    private float consumo;
+    private int consumo;
 
-    public Grafica(String nombre, float precio, float consumo) {
+    public Grafica(String nombre, float precio, int consumo)
+    {
         this.nombre = nombre;
         this.precio = precio;
         this.consumo = consumo;
     }
 
-    public String getNombre() {
+    public String getNombre()
+    {
         return nombre;
     }
 
-    public float getPrecio() {
+    public float getPrecio()
+    {
         return precio;
     }
 
-    public float getConsumo() {
+    public float getConsumo()
+    {
         return consumo;
     }
 
-    public boolean getCompatibilidad(PC pc) {
+    public boolean getCompatibilidad(PC pc)
+    {
         boolean res = false;
 
 
-        if (cumplePresupuesto(pc)) {
+        if (cumplePresupuesto(pc))
+        {
             res = true;
         }
 
         return res;
     }
 
-    private boolean cumplePresupuesto(PC pc) {
+    public boolean cumplePresupuesto(PC pc)
+    {
         boolean res = false;
 
-        if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {
+        if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax())
+        {
             res = true;
         }
 

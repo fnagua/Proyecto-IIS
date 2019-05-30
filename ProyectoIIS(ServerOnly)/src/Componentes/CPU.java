@@ -7,8 +7,13 @@ public class CPU implements Componente{
 	private String socket;
 	private int frecuenciaMem;//MHz
 	private String tecnologiaMem;//DDRX
+	private int consumo;
 
-	public CPU(String nombre, float precio, String socket, int frecuenciaMem, String tecnologiaMem) {
+	public int getConsumo() {
+		return consumo;
+	}
+
+	public CPU(String nombre, float precio, String socket, int frecuenciaMem, String tecnologiaMem, int consumo) {
 		this.nombre = nombre;
 		this.precio = precio;
 		this.socket = socket;
@@ -46,10 +51,12 @@ public class CPU implements Componente{
 		return res;
 	}
 
-	private boolean cumplePresupuesto(PC pc) {
+	public boolean cumplePresupuesto(PC pc)
+	{
 		boolean res = false;
 
-		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {
+		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax())
+		{
 			res = true;
 		}
 

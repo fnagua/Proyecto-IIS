@@ -1,13 +1,14 @@
 package Componentes;
 
-public class Carcasa {
+public class Carcasa implements Componente{
 	private String nombre;//marca+modelo
 	private float precio;
 	private float tamPlaca;
 	private float tamFuente;
 	private int ilum;//0 = no incorpora; 1 = incorpora
 
-	public Carcasa(String nombre,float tamPlaca, float tamFuente, int ilum,float precio) {
+	public Carcasa(String nombre,float tamPlaca, float tamFuente, int ilum,float precio, int consumo)
+	{
 		this.nombre = nombre;
 		this.precio = precio;
 		this.tamPlaca = tamPlaca;
@@ -39,14 +40,14 @@ public class Carcasa {
 		boolean res = false;
 
 
-		if ( pc.getPlacaBase().getTamaño() <= this.tamPlaca && pc.getFuenteAlimentacion().getTamaño() <= this.tamFuente && cumplePresupuesto(pc)) {
+		if ( pc.getPlacaBase().getTamanio() <= this.tamPlaca && pc.getFuenteAlimentacion().getTamaño() <= this.tamFuente && cumplePresupuesto(pc)) {
 			res = true;
 		}
 
 		return res;
 	}
 
-	private boolean cumplePresupuesto(PC pc) {
+	public boolean cumplePresupuesto(PC pc) {
 		boolean res = false;
 
 		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {
