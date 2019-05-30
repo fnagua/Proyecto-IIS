@@ -49,5 +49,12 @@ public class PC
         return (RAM) this.componentes.get(1);
     }
 
+    public void setPlacaBase (PlacaBase pb) {
+        this.componentes.add(2,pb);
+        this.precioAcumulado += pb.getPrecio();
+    }
 
+    public PlacaBase (PlacaBase pb) {
+        return (PlacaBase) this.componentes.get(2); 
+    }
 }
