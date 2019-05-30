@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Componentes/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componentes/PlacaBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/PlacaBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,35 +36,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Componentes/PC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1310#1311#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1593#1594#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
-                <element signature="e#1846#1847#0" expanded="true" />
-                <element signature="e#2002#2003#0" expanded="true" />
-                <element signature="e#2059#2060#0" expanded="true" />
-                <element signature="e#2242#2243#0" expanded="true" />
-                <element signature="e#2304#2305#0" expanded="true" />
-                <element signature="e#2513#2514#0" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,20 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="131">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -94,27 +60,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Componentes/RAM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="102">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Componentes/PlacaBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Componentes/PlacaBase.java">
+        <entry file="file://$PROJECT_DIR$/src/Componentes/Componente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -132,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -141,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="7" selection-end-column="19" />
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -150,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -159,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -195,27 +182,31 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/BDComponentes.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Usuario.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Cuestionario_idk.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/PC.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Grafica.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Usuario.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/start_g_0.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/BDComponentes.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/PlacaBase.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/home.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start_c_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Grafica.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Componente.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/CPU.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/PC.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/web/page_3.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start_c_1.xhtml" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -252,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Carcasa.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Grafica.java" />
-        <option value="$PROJECT_DIR$/src/Componentes/PlacaBase.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Disco_Duro.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Refrigeracion.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" />
@@ -261,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/Componentes/CPU.java" />
         <option value="$PROJECT_DIR$/src/Componentes/RAM.java" />
         <option value="$PROJECT_DIR$/src/Componentes/PC.java" />
+        <option value="$PROJECT_DIR$/src/Componentes/PlacaBase.java" />
       </list>
     </option>
   </component>
@@ -304,11 +295,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="oracle" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -359,7 +351,7 @@
         <option name="COMPATIBILITY" value="false" />
         <option name="VIRTUAL_SERVER" />
         <option name="USERNAME" value="admin" />
-        <option name="CREDENTIAL_ALIAS" />
+        <option name="PASSWORD" value="" />
       </server-settings>
       <predefined_log_file enabled="true" id="GlassFish" />
       <RunnerSettings RunnerId="Debug">
@@ -449,7 +441,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37495000" />
+    <option name="totallyTimeSpent" value="37528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,10 +453,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16260162" visible="true" weight="0.19667171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16260162" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,6 +529,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Placa Base donete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Placa Base donete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/javax.faces-2.2.1.jar!/javax/faces/webapp/FacesServlet.class">
@@ -715,20 +710,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componentes/Perifericos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componentes/Refrigeracion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Perifericos.java" />
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Refrigeracion.java" />
     <entry file="file://$PROJECT_DIR$/src/Componentes/Grafica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -739,109 +722,87 @@
     <entry file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Componente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/PlacaBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="1122">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/RAM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="131">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/PC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#2002#2003#0" expanded="true" />
-            <element signature="e#2059#2060#0" expanded="true" />
-            <element signature="e#2242#2243#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
           </folding>
         </state>
       </provider>
