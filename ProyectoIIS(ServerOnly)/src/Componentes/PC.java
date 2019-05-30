@@ -54,11 +54,12 @@ public class PC
         this.precioAcumulado += pb.getPrecio();
     }
 
-    public PlacaBase getPlacaBase (PlacaBase pb) {
+    public PlacaBase getPlacaBase () {
         return (PlacaBase) this.componentes.get(2);
     }
 
     public void setGrafica (Grafica g) {
         this.componentes.add(3,g);
+        this.precioAcumulado += g.getPrecio()
     }
 }
