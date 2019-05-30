@@ -6,20 +6,22 @@ public class PlacaBase implements Componente
 	private float precio;
 	private String socket;
 	private int frecuenMem;//MHz
-	private int tamanio;
+	private String tamanio;
 	private int consumo;
 
-	public int getConsumo() {
+	public int getConsumo()
+	{
 		return consumo;
 	}
 
-	public PlacaBase(String nombre, String socket, int freq, int tamanio, float precio)
+	public PlacaBase(String nombre, String socket, int freq, String tamanio, float precio, int consumo)
 	{
 		this.nombre = nombre;
 		this.socket = socket;
 		this.frecuenMem = freq;
 		this.tamanio = tamanio;
 		this.precio = precio;
+		this.consumo = consumo;
 	}
 
 	public String getNombre()
@@ -62,12 +64,12 @@ public class PlacaBase implements Componente
 		this.frecuenMem = frecuenMem;
 	}
 
-	public int getTamanio()
+	public String getTamanio()
 	{
 		return tamanio;
 	}
 
-	public void setTamanio(int tamanio)
+	public void setTamanio(String tamanio)
 	{
 		this.tamanio = tamanio;
 	}
@@ -76,7 +78,7 @@ public class PlacaBase implements Componente
 	public boolean getCompatibilidad(PC pc)
 	{
 		boolean ok = false;
-		if(pc.getRAM().getFrecuencia()<=this.frecuenMem && cumplePresupuesto(pc))
+		if(pc.getCPU().getSocket().equals(this.socket) && cumplePresupuesto(pc))
 		{
 			ok=true;
 
@@ -89,4 +91,10 @@ public class PlacaBase implements Componente
 		return (pc.getPrecioAcumulado()+this.precio)<pc.getPrecioMax();
 
 	}
+
+	public String toString ()
+	{
+		return this.nombre;
+	}
+
 }

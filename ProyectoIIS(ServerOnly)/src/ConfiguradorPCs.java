@@ -6,7 +6,14 @@ import java.util.StringJoiner;
 
 public class ConfiguradorPCs
 {
-    List<Componente>[] piezas;
+    public static void main(String[] args)
+	{
+		/*
+		*
+		* Clase para hacer las pruebas de la funcion
+		*
+		* */
+	}
     
     public List<String> Respuestas2Filtros(List<List<String>> respuestas)
     {

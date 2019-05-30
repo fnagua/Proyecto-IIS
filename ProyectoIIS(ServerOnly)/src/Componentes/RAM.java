@@ -38,11 +38,12 @@ public class RAM implements Componente
 		return frecuencia;
 	}
 
-	public boolean getCompatibilidad(PC pc) {
+	public boolean getCompatibilidad(PC pc)
+	{
 		boolean res = false;
 
-
-		if (pc.getCPU().getFrecuenciaMem() >=  this.frecuencia && cumplePresupuesto(pc) ) {
+		//System.out.println(pc.getCPU().getFrecuenciaMem()+" >= "+this.frecuencia);
+		if (pc.getCPU().getFrecuenciaMem() <=  this.frecuencia && cumplePresupuesto(pc) ) {
 			res = true;
 		}
 
@@ -59,6 +60,11 @@ public class RAM implements Componente
 		}
 
 		return res;
+	}
+
+	public String toString ()
+	{
+		return this.nombre;
 	}
 
 }

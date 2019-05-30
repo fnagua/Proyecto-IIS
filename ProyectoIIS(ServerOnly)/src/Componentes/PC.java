@@ -2,19 +2,21 @@ package Componentes;
 
 import Componentes.Componente;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-//0-CPU   1-RAM 2-PlacaBase   3-Grafica 4-DiscoDuro   Carcasa TarjetaRed  FuenteAlimentacion
+//0-CPU   1-RAM   2-PlacaBase   3-Grafica   4-DiscoDuro   5-Carcasa    6-TarjetaRed    7-FuenteAlimentacion
 public class PC
 {
-
     private List<Componente> componentes;
     private float precioMax;
     private float precioAcumulado;
     private int consumoAcumulado;
 
-    public int getConsumoAcumulado() {
+
+    public int getConsumoAcumulado()
+    {
         return consumoAcumulado;
     }
 
@@ -24,6 +26,12 @@ public class PC
         this.precioMax = precioMax;
         this.precioAcumulado = 0;
         this.consumoAcumulado=0;
+
+        for (int i=0;i<8;i++)
+        {
+            componentes.add(null);
+        }
+       // System.out.println(componentes);
     }
 
     public float getPrecioMax()
@@ -158,5 +166,9 @@ public class PC
         return  (Fuente_Alimentacion) this.componentes.get(7);
     }
 
+    public void setComponente(int ind, Componente cmp)
+    {
+        this.componentes.set(ind, cmp);
+    }
 
 }

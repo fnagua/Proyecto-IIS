@@ -3,11 +3,11 @@ package Componentes;
 public class Carcasa implements Componente{
 	private String nombre;//marca+modelo
 	private float precio;
-	private float tamPlaca;
+	private String tamPlaca;
 	private float tamFuente;
 	private int ilum;//0 = no incorpora; 1 = incorpora
 
-	public Carcasa(String nombre,float tamPlaca, float tamFuente, int ilum,float precio, int consumo)
+	public Carcasa(String nombre,String tamPlaca, float tamFuente, int ilum,float precio, int consumo)
 	{
 		this.nombre = nombre;
 		this.precio = precio;
@@ -24,7 +24,7 @@ public class Carcasa implements Componente{
 		return precio;
 	}
 
-	public float getTamPlaca() {
+	public String getTamPlaca() {
 		return tamPlaca;
 	}
 
@@ -40,7 +40,7 @@ public class Carcasa implements Componente{
 		boolean res = false;
 
 
-		if ( pc.getPlacaBase().getTamanio() <= this.tamPlaca && pc.getFuenteAlimentacion().getTamaño() <= this.tamFuente && cumplePresupuesto(pc)) {
+		if ( pc.getPlacaBase().getTamanio().equals(this.tamPlaca) && pc.getFuenteAlimentacion().getTamaño() <= this.tamFuente && cumplePresupuesto(pc)) {
 			res = true;
 		}
 

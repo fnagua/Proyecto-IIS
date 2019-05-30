@@ -44,7 +44,8 @@ public class CPU implements Componente{
 	public boolean getCompatibilidad(PC pc) {
 		boolean res = false;
 
-		if (pc.getComponentes().isEmpty() && cumplePresupuesto(pc) ) {
+		if (pc.getComponentes().get(0)==null && cumplePresupuesto(pc) )
+		{
 			res = true;
 		}
 
@@ -61,6 +62,11 @@ public class CPU implements Componente{
 		}
 
 		return res;
+	}
+
+	public String toString ()
+	{
+		return this.nombre;
 	}
 
 }
