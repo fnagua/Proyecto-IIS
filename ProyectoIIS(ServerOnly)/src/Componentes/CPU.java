@@ -46,7 +46,7 @@ public class CPU implements Componente{
 		return res;
 	}
 
-	private boolean cumplePresupuesto(PC pc) {
+	public boolean cumplePresupuesto(PC pc) {
 		boolean res = false;
 
 		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {
