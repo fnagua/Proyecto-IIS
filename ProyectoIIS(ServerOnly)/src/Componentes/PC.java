@@ -167,8 +167,23 @@ public class PC
     }
 
     public void setComponente(int ind, Componente cmp)
+
     {
         this.componentes.set(ind, cmp);
+        this.precioAcumulado += cmp.getPrecio();
+        System.out.println("\nse añade "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
+    }
+
+    public void borraComponente(int ind, Componente cmp)
+    {
+        this.componentes.set(ind,null);
+        this.precioAcumulado-=cmp.getPrecio();
+
+        if (-2 < this.precioAcumulado && this.precioAcumulado<= 1)
+        {
+            precioAcumulado=0;
+        }
+        System.out.println("\nse quita "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
     }
 
 
