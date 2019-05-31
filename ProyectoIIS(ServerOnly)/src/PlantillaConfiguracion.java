@@ -56,36 +56,40 @@ public class PlantillaConfiguracion
 
     }
 
-    public static void configuraPCs(int comp, PC pc)
-    {
-        if (completo(pc))
-        {
+    public static void configuraPCs(int comp, PC pc) {
+        if (completo(pc)) {
             pcs.add(pc);
 
         }
 
         List<Componente> lc = componentes.get(comp);
-
-        for (int i=0;i<lc.size();i++)
+        System.out.println(lc);
+        for (int i = 0; i < lc.size(); i++)
         {
             Componente cmp = lc.get(i);
-            //System.out.println(pc.getComponentes());
+            System.out.println(pc.getComponentes());
 
             if (cmp.getCompatibilidad(pc))
             {
                 pc.setComponente(comp, cmp);
 
-                System.out.println("Se añade el componente "+cmp.toString()+"\n"+pc.getComponentes()+"\n");
+                System.out.println("Se añade el componente " + cmp.toString() + "\n" + pc.getComponentes() + "\n" + pc.getPrecioAcumulado());
 
-                if (comp+1<3) //este if solo vale para probar, ya que solo tengo 3 componentes, cuando esten los 8 implementados para la prueba se borra
+                if (comp + 1 < 3) //este if solo vale para probar, ya que solo tengo 3 componentes, cuando esten los 8 implementados para la prueba se borra
                 {
-                    configuraPCs(comp+1, pc);
+                    configuraPCs(comp + 1, pc);
                 }
             }
-            pc.setComponente(comp, null);
+
+            System.out.println(pc.getComponentes());
+            System.out.println(pc.getComponentes().get(comp));
+
+            if (pc.getComponentes().get(comp)!=null)
+            {
+                pc.borraComponente(comp, pc.getComponentes().get(comp));
+            }
         }
     }
-
     private static boolean completo(PC pc)
     {
         return pc.getComponentes().size() == 8;

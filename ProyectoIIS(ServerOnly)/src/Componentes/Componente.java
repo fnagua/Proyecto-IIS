@@ -6,4 +6,6 @@ public interface Componente {
 
     boolean cumplePresupuesto(PC pc);
 
+    float getPrecio();
+
 }
