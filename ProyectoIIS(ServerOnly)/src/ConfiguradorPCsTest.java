@@ -7,10 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class ConfiguradorPCsTest {
 
     @org.junit.jupiter.api.Test
-    void respuestas2Filtros() {
+    void respuestas2Filtros()
+    {
         String[] uso = {"ofimatica", "gaming", "disenio", "edicion"};
         String[] capacidad = {"250GB", "500GB", "1TB", "2TB", "4TB"};
-        String[] tamanio = {"pequeño", "mediano", "indiferente"};
+        String[] tamanio = {"pequeño", "normal", "indiferente"};
         String[] so = {"windows", "linux", "otros"};
         String[] opcionales = {"cds", "tarjetared", "tarjetasonido"};
         String[] iluminacion = {"si", "no"};
@@ -32,8 +33,9 @@ class ConfiguradorPCsTest {
         filtros = cps.Respuestas2Filtros(respuesta);
 
 
-        System.out.println("RESPUESTAS:");
-        for (int i=0; i<respuesta.size(); i++) {  //todos los filtros tienen que ser no nulos
+        System.out.println("RESPUESTAS(Entrada):");
+        for (int i=0; i<respuesta.size(); i++)
+        {  //todos los filtros tienen que ser no nulos
             aux = respuesta.get(i);
 
             for (int j=0; j<aux.size(); j++) {  //todos los filtros tienen que ser no nulos
@@ -50,9 +52,10 @@ class ConfiguradorPCsTest {
         System.out.println("\n\n");
         /**/
 
-        System.out.println("FILTROS:");
-        for (int i=0; i<filtros.size(); i++) {
-            System.out.print(filtros.get(i)+"\t");
+        System.out.println("FILTROS(salida):");
+        for (int i=0; i<filtros.size(); i++)
+        {
+            System.out.println(filtros.get(i)+"\t");
             assertNotNull(filtros.get(i));
         }
 

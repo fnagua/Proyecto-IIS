@@ -74,7 +74,6 @@ public class PC implements Comparable<PC>
 
 
 
-
     public void setRAM (RAM ram)
     {
         this.componentes.add(1,(Componente)ram);
@@ -86,7 +85,6 @@ public class PC implements Comparable<PC>
     {
         return (RAM) this.componentes.get(1);
     }
-
 
 
 

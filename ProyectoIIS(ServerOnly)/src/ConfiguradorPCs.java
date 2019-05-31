@@ -1,18 +1,34 @@
 import Componentes.Componente;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringJoiner;
+import java.util.*;
 
 public class ConfiguradorPCs
 {
     public static void main(String[] args)
 	{
-		/*
-		*
-		* Clase para hacer las pruebas de la funcion
-		*
-		* */
+		String[] uso = {"ofimatica", "gaming", "disenio", "edicion"};
+		String[] capacidad = {"250GB", "500GB", "1TB", "2TB", "4TB"};
+		String[] tamanio = {"pequeño", "mediano", "indiferente"};
+		String[] so = {"windows", "linux", "otros"};
+		String[] opcionales = {"cds", "tarjetared", "tarjetasonido"};
+		String[] iluminacion = {"si", "no"};
+
+		ConfiguradorPCs cps = new ConfiguradorPCs();
+		List<List<String>> respuesta = new LinkedList<List<String>>();
+		List<String> filtros = new LinkedList<String>();
+		List<String> aux = new LinkedList<String>();
+
+
+		numero(respuesta);
+		varias(respuesta, uso);
+		una(respuesta, capacidad);
+		una(respuesta, tamanio);
+		una(respuesta, so);
+		varias(respuesta, opcionales);
+		una(respuesta, iluminacion);
+
+		filtros = cps.Respuestas2Filtros(respuesta);
+
 	}
 
     public List<String> Respuestas2Filtros(List<List<String>> respuestas)
@@ -28,14 +44,15 @@ public class ConfiguradorPCs
 				//Precio maximo
 				cadena.add("precio<"+respuestas.get(i).get(0).toString());
 				filtros.add(i, cadena.toString());
-				cadena.setEmptyValue(null);
+				cadena= new StringJoiner(",","","");
 			}
 
 			if(i==1)
 			{
-				for(int j=0;j<respuestas.get(i).size();j++)
+				cadena.add("Usos="+respuestas.get(1).get(0));
+
+				for(int j=1;j<respuestas.get(i).size();j++)
 				{
-					cadena.add("Usos=");
 					if(respuestas.get(i).get(j).compareTo("ofimatica")==0)
 					{
 						cadena.add("ofimatica");
@@ -55,21 +72,21 @@ public class ConfiguradorPCs
 				}
 							
 				filtros.add(i,cadena.toString());
-				cadena.setEmptyValue(null);
+				cadena= new StringJoiner(",","","");
 			}
 
 			if(i==2)
 			{
 				//Tama�o disco duro
-				cadena.add("capacidad>"+respuestas.get(i).get(0).toString());
+				cadena.add("capacidad="+respuestas.get(i).get(0).toString());
 				filtros.add(i,cadena.toString());
-				cadena.setEmptyValue(null); 
+				cadena= new StringJoiner(",","","");
 			}
 
 			if(i==3)
 			{
 				//Tama�o caja/placa base
-				cadena.add("Tamanio=");
+				cadena.add("Tamanio="+respuestas.get(3).get(0));
 				if(respuestas.get(i).contains("pequenio"))
 				{
 					cadena.add("micro-atx");
@@ -84,31 +101,19 @@ public class ConfiguradorPCs
 				}
 
 				filtros.add(i,cadena.toString());
-				cadena.setEmptyValue(null);
+				cadena= new StringJoiner(",","","");
 			}
 			if(i==4)
 			{
-				cadena.add("SistemaOperativo=");
+				cadena.add("SistemaOperativo="+respuestas.get(4).get(0));
 
-				if(respuestas.get(i).contains("windows"))
-				{
-					cadena.add("windows");
-				}
-				else if(respuestas.get(i).contains("linux"))
-				{
-					cadena.add("linux");
-				}
-				else if(respuestas.get(i).contains("otros"))
-				{
-					cadena.add("otros");
-				}
 				filtros.add(i, cadena.toString());
-				cadena.setEmptyValue(null);
+				cadena= new StringJoiner(",","","");
 			}
 
 			if(i==5)
 			{
-				cadena.add("Opcionales=");
+				cadena.add("Opcionales="+respuestas.get(5).get(0));
 
 				if(respuestas.get(i).contains("cds"))
 				{
@@ -125,12 +130,12 @@ public class ConfiguradorPCs
 				}
 
 				filtros.add(i, cadena.toString());
-				cadena.setEmptyValue(null);
+				cadena= new StringJoiner(",","","");
 			}
 
 			if(i==6)
 			{
-				cadena.add("Iluminacion=");
+				cadena.add("Iluminacion="+respuestas.get(3).get(0));
 
 				if(respuestas.get(i).contains("si"))
 				{
@@ -142,11 +147,52 @@ public class ConfiguradorPCs
 					cadena.add("false");
 				}
 				filtros.add(i, cadena.toString());
-				cadena.setEmptyValue(null);
+				cadena= new StringJoiner(",","","");
 			}
 		}
 
 		return filtros;
     }
+
+
+	private static void  numero(List<List<String>> l) {
+		List<String> aux = new LinkedList<String>();
+		Random r = new Random();
+		int aleatorio;
+
+		aleatorio = r.nextInt(4000);
+		aux.add(Integer.toString(aleatorio));
+
+		l.add(aux);
+	}
+
+	private static void varias(List<List<String>> l, String[] s) {
+		List<String> aux = new LinkedList<String>();
+		Random r = new Random();
+		int aleatorio;
+
+		for (int i=0; i<s.length; i++) {
+			if (r.nextBoolean()) {
+				aux.add(s[i]);
+			}
+		}
+
+		if (aux.isEmpty()) {
+			aleatorio = r.nextInt(s.length);
+			aux.add(s[aleatorio]);
+		}
+
+		l.add(aux);
+	}
+
+	private static void una(List<List<String>> l, String[] s) {
+		List<String> aux = new LinkedList<String>();
+		Random r = new Random();
+		int aleatorio;
+
+		aleatorio = r.nextInt(s.length);
+		aux.add(s[aleatorio]);
+		l.add(aux);
+	}
 
 }

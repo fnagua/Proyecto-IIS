@@ -5,7 +5,12 @@ import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+//Objetivo
 //0-CPU   1-RAM   2-PlacaBase   3-Grafica   4-DiscoDuro   5-Carcasa    6-TarjetaRed    7-FuenteAlimentacion
+//
+//0
+//Actualmente
+//0-CPU   1-RAM   2-PlacaBase   3-Carcasa
 public class PlantillaConfiguracion
 {
     private static List<List<Componente>> componentes = new ArrayList<>();
@@ -25,9 +30,9 @@ public class PlantillaConfiguracion
         CPU cpu2 = new CPU("Intel Core i7-7700",(float)314.99,"LGA1151",2400,65);
         CPU cpu3 = new CPU("Intel Pentium G4560",(float) 62.99, "LGA1151",2400,54);
         CPU cpu4 = new CPU("Intel Core i7-8700K",(float)379.90,"LGA1151",2666,95);
-        CPU cpu5 = new CPU("Intel Core i5-8700K",263,"LGA1151",2666,95);
+        CPU cpu5 = new CPU("Intel Core i5-8700K",(float)262.99,"LGA1151",2666,95);
         CPU cpu6 = new CPU("Intel Celereon G4920",(float)59.99,"LGA1151",2400,54);
-        CPU cpu7 = new CPU("AMD Ryzen 3",(float) 92.99,"AM4",2666,65);
+        CPU cpu7 = new CPU("AMD Ryzen 3",(float)92.99,"AM4",2666,65);
         CPU cpu8 = new CPU("AMD Ryzen 5 1600X",(float) 139.90, "AM4",2400,95);
         CPU cpu9 = new CPU("AMD Ryzen 7 2700",(float) 230.99,"AM4",2993,100);
         CPU cpu10 = new CPU("AMD A6-9500 3",(float) 50.99,"AM4",2400,35);
@@ -70,6 +75,8 @@ public class PlantillaConfiguracion
         RAM ram11 = new RAM("Crucial 2400 PC4-19200 8GB CL17",45,8,2400,3);
         RAM ram12 = new RAM("HyperX Predator RGB",99,8,4000,4);
 
+
+
         List<Componente> lram = new ArrayList<>();
         lram.add(ram1);
         lram.add(ram2);
@@ -97,7 +104,7 @@ public class PlantillaConfiguracion
         PlacaBase pb3 = new PlacaBase("Asus Prime B250M-A","LGA1151",2400,"MicroATX",(float)63.99,10);
         PlacaBase pb4 = new PlacaBase("Asus Prime B360M-A","LGA1151",2666,"MicroATX",(float)80,6);
         PlacaBase pb5 = new PlacaBase("MSI,Z370-A PRO","LGA1151",2666,"ATX",(float)104.90,10);
-        PlacaBase pb6 = new PlacaBase("MSI,X470 GAMING PLUS","AM4",3466,"ATX",(float)134.90,10);
+        PlacaBase pb6 = new PlacaBase("MSI X470 GAMING PLUS","AM4",3466,"ATX",(float)134.90,10);
         PlacaBase pb7 = new PlacaBase("Asus,Prime B450M-A","AM4",2666,"MicroATX",(float)69.99, 5);
         PlacaBase pb8 = new PlacaBase("Gigabyte GA-H110M-S2H","LGA1151",2133,"MicroATX", (float)50.99,8);
         PlacaBase pb9 = new PlacaBase("MSI,B360M Bazooka","LGA1151",2666,"ATX",(float)84.99,6);
@@ -140,7 +147,7 @@ public class PlantillaConfiguracion
 
         componentes.set(3,lcc);
 
-        configuraPCs(0, new PC(160));
+        configuraPCs(0, new PC(20000));
 
         System.out.println("PCs configurados: "+PlantillaConfiguracion.pcs+"\nNumero de pcs configurados: "+pcs.size());
 
