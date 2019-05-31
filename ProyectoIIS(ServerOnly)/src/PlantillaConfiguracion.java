@@ -64,11 +64,13 @@ public class PlantillaConfiguracion
 
         List<Componente> lc = componentes.get(comp);
         System.out.println(lc);
-        for (int i = 0; i < lc.size(); i++) {
+        for (int i = 0; i < lc.size(); i++)
+        {
             Componente cmp = lc.get(i);
             System.out.println(pc.getComponentes());
 
-            if (cmp.getCompatibilidad(pc)) {
+            if (cmp.getCompatibilidad(pc))
+            {
                 pc.setComponente(comp, cmp);
 
                 System.out.println("Se añade el componente " + cmp.toString() + "\n" + pc.getComponentes() + "\n" + pc.getPrecioAcumulado());
@@ -78,6 +80,7 @@ public class PlantillaConfiguracion
                     configuraPCs(comp + 1, pc);
                 }
             }
+
             System.out.println(pc.getComponentes());
             System.out.println(pc.getComponentes().get(comp));
 
@@ -85,8 +88,6 @@ public class PlantillaConfiguracion
             {
                 pc.borraComponente(comp, pc.getComponentes().get(comp));
             }
-
-
         }
     }
     private static boolean completo(PC pc)
