@@ -14,7 +14,7 @@ public class ConfiguradorPCs
 		*
 		* */
 	}
-    
+
     public List<String> Respuestas2Filtros(List<List<String>> respuestas)
     {
     	List<String> filtros = new ArrayList<>();
@@ -61,7 +61,7 @@ public class ConfiguradorPCs
 			if(i==2)
 			{
 				//Tama�o disco duro
-				cadena.add("tamanio>"+respuestas.get(i).get(0).toString());
+				cadena.add("capacidad>"+respuestas.get(i).get(0).toString());
 				filtros.add(i,cadena.toString());
 				cadena.setEmptyValue(null); 
 			}
