@@ -15,66 +15,92 @@ class ConfiguradorPCsTest {
         String[] opcionales = {"cds", "tarjetared", "tarjetasonido"};
         String[] iluminacion = {"si", "no"};
 
-        Random r = new Random();
+        ConfiguradorPCs cps = new ConfiguradorPCs();
         List<List<String>> respuesta = new LinkedList<List<String>>();
         List<String> filtros = new LinkedList<String>();
         List<String> aux = new LinkedList<String>();
-        int aleatorio;
+
+
+        numero(respuesta);
+        varias(respuesta, uso);
+        una(respuesta, capacidad);
+        una(respuesta, tamanio);
+        una(respuesta, so);
+        varias(respuesta, opcionales);
+        una(respuesta, iluminacion);
+
+        filtros = cps.Respuestas2Filtros(respuesta);
+
+
+        System.out.println("RESPUESTAS:");
+        for (int i=0; i<respuesta.size(); i++) {  //todos los filtros tienen que ser no nulos
+            aux = respuesta.get(i);
+
+            for (int j=0; j<aux.size(); j++) {  //todos los filtros tienen que ser no nulos
+                System.out.print(aux.get(j)+"\t");
+            }
+            System.out.print("\n");
+
+        }
+
+
+       // filtros = cps.Respuestas2Filtros(respuesta);
 
         /**/
+        System.out.println("\n\n");
+        /**/
 
-        for (int i=0; i<uso.length; i++) {
+        System.out.println("FILTROS:");
+        for (int i=0; i<filtros.size(); i++) {
+            System.out.print(filtros.get(i)+"\t");
+            assertNotNull(filtros.get(i));
+        }
+
+    }
+
+    private void  numero(List<List<String>> l) {
+        List<String> aux = new LinkedList<String>();
+        Random r = new Random();
+        int aleatorio;
+
+        aleatorio = r.nextInt(4000);
+        aux.add(Integer.toString(aleatorio));
+
+        l.add(aux);
+    }
+
+    private void varias(List<List<String>> l, String[] s) {
+        List<String> aux = new LinkedList<String>();
+        Random r = new Random();
+        int aleatorio;
+
+        for (int i=0; i<s.length; i++) {
             if (r.nextBoolean()) {
-                aux.add(uso[i]);
-                System.out.print(uso[i]+"\t");
+                aux.add(s[i]);
             }
         }
 
         if (aux.isEmpty()) {
-            aleatorio = r.nextInt(uso.length);
-            aux.add(uso[aleatorio]);
-            System.out.print(uso[aleatorio]+"\t");
+            aleatorio = r.nextInt(s.length);
+            aux.add(s[aleatorio]);
         }
 
-        respuesta.add(aux);
-
-        /**/
-        aux.clear();
-        System.out.print("\n");
-        /**/
-
-        aleatorio = r.nextInt(capacidad.length);
-        aux.add(capacidad[aleatorio]);
-        System.out.print(capacidad[aleatorio]+"\t");
-        respuesta.add(aux);
-
-        /**/
-        aux.clear();
-        System.out.print("\n");
-        /**/
-
-        aleatorio = r.nextInt(tamanio.length);
-        aux.add(tamanio[aleatorio]);
-        System.out.print(tamanio[aleatorio]+"\t");
-        respuesta.add(aux);
-
-        /**/
-        aux.clear();
-        System.out.print("\n");
-        /**/
-
-        aleatorio = r.nextInt(so.length);
-        aux.add(so[aleatorio]);
-        System.out.print(so[aleatorio]+"\t");
-        respuesta.add(aux);
-
-        /**/
-        aux.clear();
-        System.out.print("\n");
-        /**/
-
+        l.add(aux);
     }
+
+    private void una(List<List<String>> l, String[] s) {
+        List<String> aux = new LinkedList<String>();
+        Random r = new Random();
+        int aleatorio;
+
+        aleatorio = r.nextInt(s.length);
+        aux.add(s[aleatorio]);
+        l.add(aux);
+    }
+
 }
+
+
 
 /*
 List<List<String>>

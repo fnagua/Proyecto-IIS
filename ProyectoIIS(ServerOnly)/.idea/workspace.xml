@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="Test mejorados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/PlantillaConfiguracion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/PlantillaConfiguracion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConfiguradorPCsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfiguradorPCsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cuestionario.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+            <state relative-caret-position="101">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -41,13 +38,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+            <state relative-caret-position="203">
+              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#683#697#0" expanded="true" />
+                <element signature="e#702#716#0" expanded="true" />
                 <element signature="e#713#721#0" expanded="true" />
-                <element signature="e#739#747#0" expanded="true" />
+                <element signature="e#819#827#0" expanded="true" />
+                <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
+                <element signature="e#1432#1440#0" expanded="true" />
+                <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
+                <element signature="e#837#845#0" expanded="true" />
+                <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
+                <element signature="e#1382#1390#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +94,7 @@
     <setting file="file://$PROJECT_DIR$/src/Componentes/PC.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Componentes/CPU.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Componentes/RAM.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,13 +104,13 @@
         <option value="$PROJECT_DIR$/src/Componentes/Grafica.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Disco_Duro.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" />
-        <option value="$PROJECT_DIR$/src/ConfiguradorPCs.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Carcasa.java" />
         <option value="$PROJECT_DIR$/src/Componentes/PC.java" />
         <option value="$PROJECT_DIR$/src/Componentes/RAM.java" />
         <option value="$PROJECT_DIR$/src/Componentes/CPU.java" />
         <option value="$PROJECT_DIR$/src/Componentes/PlacaBase.java" />
         <option value="$PROJECT_DIR$/src/PlantillaConfiguracion.java" />
+        <option value="$PROJECT_DIR$/src/ConfiguradorPCs.java" />
         <option value="$PROJECT_DIR$/src/ConfiguradorPCsTest.java" />
       </list>
     </option>
@@ -334,34 +338,56 @@
       <option name="project" value="LOCAL" />
       <updated>1559299415965</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test mejorados">
+      <created>1559301128568</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559301128568</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 08m 29s.xml">
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 57m 43s.xml">
       <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 08m 40s.xml">
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 58m 10s.xml">
       <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 08m 45s.xml">
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 58m 25s.xml">
       <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 10m 11s.xml">
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 58m 43s.xml">
       <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 10m 17s.xml">
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 13h 59m 19s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 14h 00m 19s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 14h 00m 49s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 14h 01m 01s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 14h 50m 19s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 14h 52m 09s.xml">
       <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12906000" />
+    <option name="totallyTimeSpent" value="15321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16260162" visible="true" weight="0.20272315" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16260162" weight="0.20272315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -371,7 +397,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.695581" />
       <window_info anchor="bottom" id="Web" order="2" sideWeight="0.83739835" weight="0.16008538" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49959514" visible="true" weight="0.4599018" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49959514" visible="true" weight="0.4222586" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4989059" weight="0.35344827" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -442,7 +468,8 @@
     <MESSAGE value="Añadido el consumo a todas las clases" />
     <MESSAGE value="implementado el algoritmo de backtracking que presumiblemente funciona (solo probado con 3 componentes)" />
     <MESSAGE value="añadida la clase de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadida la clase de test" />
+    <MESSAGE value="Test mejorados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test mejorados" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -621,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cuestionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -635,15 +655,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="558" selection-start-line="558" selection-end-line="558" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/StringJoiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="144" column="34" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2662">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        <state relative-caret-position="203">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#683#697#0" expanded="true" />
+            <element signature="e#702#716#0" expanded="true" />
             <element signature="e#713#721#0" expanded="true" />
-            <element signature="e#739#747#0" expanded="true" />
+            <element signature="e#819#827#0" expanded="true" />
+            <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
+            <element signature="e#1432#1440#0" expanded="true" />
+            <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
+            <element signature="e#837#845#0" expanded="true" />
+            <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
+            <element signature="e#1382#1390#0" expanded="true" />
           </folding>
         </state>
       </provider>
