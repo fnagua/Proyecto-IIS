@@ -72,4 +72,9 @@ public class Disco_Duro implements Componente
 
         return res;
     }
+
+    public String toString()
+    {
+        return this.nombre;
+    }
 }

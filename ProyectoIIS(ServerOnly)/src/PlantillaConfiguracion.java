@@ -66,10 +66,8 @@ public class PlantillaConfiguracion
 
         List<Componente> lc = componentes.get(comp);
 
-
         for (int i=0;i<lc.size();i++)
         {
-           // System.out.println("indice: "+i+", componente: "+comp);
             Componente cmp = lc.get(i);
             //System.out.println(pc.getComponentes());
 

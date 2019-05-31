@@ -171,4 +171,6 @@ public class PC
         this.componentes.set(ind, cmp);
     }
 
+
+
 }

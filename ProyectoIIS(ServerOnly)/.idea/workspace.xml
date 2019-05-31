@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="implementado el algoritmo de backtracking que presumiblemente funciona (solo probado con 3 componentes)">
+    <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componentes/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/CPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componentes/Carcasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/Carcasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componentes/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/PC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componentes/PlacaBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/PlacaBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componentes/RAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/RAM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConfiguradorPCs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfiguradorPCs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlantillaConfiguracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlantillaConfiguracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/CPU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/ConfiguradorPCs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/ConfiguradorPCs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/META-INF/ProyectoIIS(ServerOnly).kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/PlantillaConfiguracion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/PlantillaConfiguracion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/RAM.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -252,10 +251,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1684" />
-    <option name="y" value="-1" />
-    <option name="width" value="922" />
-    <option name="height" value="496" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -292,7 +291,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559249813132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559250254298" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -418,7 +417,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559237414258</updated>
-      <workItem from="1559237420504" duration="9970000" />
+      <workItem from="1559237420504" duration="10514000" />
     </task>
     <task id="LOCAL-00003" summary="CumplePresupuesto añadida a al interfaz">
       <created>1559237505893</created>
@@ -448,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559242589723</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implementado el algoritmo de backtracking que presumiblemente funciona (solo probado con 3 componentes)">
+      <created>1559249877713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559249877714</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10658000" />
+    <option name="totallyTimeSpent" value="11202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="0" width="1936" height="1096" extended-state="6" />

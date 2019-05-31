@@ -56,4 +56,9 @@ public class Carcasa implements Componente{
 
 		return res;
 	}
+
+	public String toString()
+	{
+		return this.nombre;
+	}
 }

@@ -52,4 +52,9 @@ public class Grafica implements Componente
 
         return res;
     }
+
+    public String toString()
+    {
+        return this.nombre;
+    }
 }

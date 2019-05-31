@@ -67,4 +67,9 @@ public class Fuente_Alimentacion implements Componente
         return (pc.getPrecioAcumulado()+this.getPrecio() <= pc.getPrecioMax());
     }
 
+    public String toString()
+    {
+        return this.nombre;
+    }
+
 }

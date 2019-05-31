@@ -49,4 +49,9 @@ public class Tarjeta_Red implements Componente
 
         return res;
     }
+
+    public String toString()
+    {
+        return this.nombre;
+    }
 }
