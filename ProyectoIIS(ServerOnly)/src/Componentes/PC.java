@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 //0-CPU   1-RAM   2-PlacaBase   3-Grafica   4-DiscoDuro   5-Carcasa    6-TarjetaRed    7-FuenteAlimentacion
-public class PC
+public class PC implements Comparable<PC>
 {
     private List<Componente> componentes;
     private float precioMax;
@@ -20,6 +20,14 @@ public class PC
         return consumoAcumulado;
     }
 
+    public PC (PC pc)
+    {
+        this.componentes = new LinkedList<>(pc.getComponentes());
+        this.precioMax = pc.getPrecioMax();
+        this.precioAcumulado = pc.getPrecioAcumulado();
+        this.consumoAcumulado = pc.getConsumoAcumulado();
+    }
+
     public PC (float precioMax)
     {
         this.componentes = new LinkedList<Componente>();
@@ -27,7 +35,7 @@ public class PC
         this.precioAcumulado = 0;
         this.consumoAcumulado=0;
 
-        for (int i=0;i<8;i++)
+        for (int i=0;i<4;i++)
         {
             componentes.add(null);
         }
@@ -171,7 +179,7 @@ public class PC
     {
         this.componentes.set(ind, cmp);
         this.precioAcumulado += cmp.getPrecio();
-        System.out.println("\nse añade "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
+       // System.out.println("\nse añade "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
     }
 
     public void borraComponente(int ind, Componente cmp)
@@ -183,9 +191,19 @@ public class PC
         {
             precioAcumulado=0;
         }
-        System.out.println("\nse quita "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
+        //System.out.println("\nse quita "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
+    }
+
+    public String toString()
+    {
+        return  this.componentes.toString()+" \nPrecio: "+this.precioAcumulado+"\n";
     }
 
 
 
+    @Override
+    public int compareTo(PC pisi)
+    {
+        return Math.round(this.precioAcumulado-pisi.precioAcumulado);
+    }
 }

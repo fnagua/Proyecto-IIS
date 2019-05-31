@@ -40,7 +40,7 @@ public class Carcasa implements Componente{
 		boolean res = false;
 
 
-		if ( pc.getPlacaBase().getTamanio().equals(this.tamPlaca) && pc.getFuenteAlimentacion().getTamaño() <= this.tamFuente && cumplePresupuesto(pc)) {
+		if ( pc.getPlacaBase().getTamanio().equals(this.tamPlaca)  && cumplePresupuesto(pc)) {
 			res = true;
 		}
 

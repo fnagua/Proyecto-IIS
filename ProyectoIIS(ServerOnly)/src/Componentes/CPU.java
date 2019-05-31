@@ -6,19 +6,17 @@ public class CPU implements Componente{
 	private float precio;
 	private String socket;
 	private int frecuenciaMem;//MHz
-	private String tecnologiaMem;//DDRX
 	private int consumo;
 
 	public int getConsumo() {
 		return consumo;
 	}
 
-	public CPU(String nombre, float precio, String socket, int frecuenciaMem, String tecnologiaMem, int consumo) {
+	public CPU(String nombre, float precio, String socket, int frecuenciaMem, int consumo) {
 		this.nombre = nombre;
 		this.precio = precio;
 		this.socket = socket;
 		this.frecuenciaMem = frecuenciaMem;
-		this.tecnologiaMem = tecnologiaMem;
 	}
 
 	public String getNombre() {
@@ -35,10 +33,6 @@ public class CPU implements Componente{
 
 	public int getFrecuenciaMem() {
 		return frecuenciaMem;
-	}
-
-	public String getTecnologiaMem() {
-		return tecnologiaMem;
 	}
 
 	public boolean getCompatibilidad(PC pc) {
