@@ -317,7 +317,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559237414258</updated>
       <workItem from="1559237420504" duration="10514000" />
-      <workItem from="1559408293424" duration="878000" />
+      <workItem from="1559408293424" duration="920000" />
     </task>
     <task id="LOCAL-00003" summary="CumplePresupuesto añadida a al interfaz">
       <created>1559237505893</created>
@@ -404,7 +404,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22949000" />
+    <option name="totallyTimeSpent" value="22991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="653" height="727" extended-state="0" />

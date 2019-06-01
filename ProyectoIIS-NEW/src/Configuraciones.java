@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.StringJoiner;
 
+
 public class Configuraciones
 {
     public static List<List<Componente>> componentes = new LinkedList<>();
