@@ -23,6 +23,11 @@ public class Configuraciones implements Comparable<Configuraciones>
         this.precioMax=Integer.MAX_VALUE;
         this.precioAcumulado=0;
         this.consumoAcumulado=0;
+
+        for (int i = 0; i < 4; i++)
+        {
+            componentesconf.add(null);
+        }
     }
 
     public Configuraciones(Configuraciones pc)
@@ -31,6 +36,7 @@ public class Configuraciones implements Comparable<Configuraciones>
         this.precioMax = pc.getPrecioMax();
         this.precioAcumulado = pc.getPrecioAcumulado();
         this.consumoAcumulado = pc.getConsumoAcumulado();
+
     }
 
     public Configuraciones(float precioMax)
@@ -44,7 +50,6 @@ public class Configuraciones implements Comparable<Configuraciones>
         {
             componentesconf.add(null);
         }
-        // System.out.println(componentes);
     }
 
     public float getPrecioMax() {
@@ -169,7 +174,8 @@ public class Configuraciones implements Comparable<Configuraciones>
         // System.out.println("\nse añade "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
     }
 
-    public void borraComponente(int ind, Componente cmp) {
+    public void borraComponente(int ind, Componente cmp)
+    {
         this.componentesconf.set(ind, null);
         this.precioAcumulado -= cmp.getPrecio();
 
@@ -184,14 +190,17 @@ public class Configuraciones implements Comparable<Configuraciones>
         return componentesconf.toString();
     }
 
-    public static SortedSet<Configuraciones> getPcs() {
+    public static SortedSet<Configuraciones> getPcs()
+    {
         return pcs;
     }
 
     public void setPresupuesto(float p)
     {
-        this.precioAcumulado = p;
+        this.precioMax = p;
+        this.precioAcumulado=0;
     }
+
 
     @Override
     public int compareTo(Configuraciones pisi) {
@@ -310,10 +319,10 @@ public class Configuraciones implements Comparable<Configuraciones>
         else
         {
             List<Componente> lc = componentesfilt.get(comp);
-            System.out.println(lc);
+            //System.out.println(lc);
             for (int i = 0; i < lc.size(); i++) {
                 Componente cmp = lc.get(i);
-                System.out.println(pc.getComponentes());
+              //  System.out.println(pc.getComponentes());
 
                 if (cmp.getCompatibilidad(pc))
                 {
@@ -338,7 +347,7 @@ public class Configuraciones implements Comparable<Configuraciones>
 
     private static boolean completo(Configuraciones pc)
     {
-        return !pc.getComponentes().contains(null);
+        return !pc.getComponentes().contains(null)&& !pc.getComponentes().isEmpty();
     }
 
     //--------------------------------Main para probar cosas----------------------------

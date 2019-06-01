@@ -84,10 +84,16 @@ class ConfiguracionesTest {
         //-------------------------
 
         cc.setPresupuesto((float)0);
+        System.out.println(cc.getPrecioMax());
+
+
         cc.GenerarPCs(0,new Configuraciones(), comp.obtenerComponentes());
         SortedSet<Configuraciones> vacio = new TreeSet<>();
-        Configuraciones c = new Configuraciones();
-        vacio.add(c);
+        cc.pcs = new TreeSet<>();
+
+        System.out.println(vacio+" "+cc.getPcs());
+
+
 
         assertEquals(cc.getPcs(), vacio);
 

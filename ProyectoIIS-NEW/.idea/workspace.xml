@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoIIS(ServerOnly).iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoIIS(ServerOnly).iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componentes/Configuraciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/Configuraciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConfiguracionesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfiguracionesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,12 +21,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Componentes/Configuraciones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="192" column="33" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
+            <state relative-caret-position="173">
+              <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
               <folding>
-                <element signature="method#Configuraciones#0;class#Configuraciones#0" />
-                <element signature="method#Configuraciones#1;class#Configuraciones#0" />
-                <element signature="method#Configuraciones#2;class#Configuraciones#0" />
                 <element signature="e#1463#1464#0" expanded="true" />
                 <element signature="e#1495#1496#0" expanded="true" />
                 <element signature="method#setCPU#0;class#Configuraciones#0" />
@@ -38,15 +35,7 @@
                 <element signature="method#setTarjetaRed#0;class#Configuraciones#0" />
                 <element signature="method#setFuenteAlimentacion#0;class#Configuraciones#0" />
                 <element signature="method#setComponente#0;class#Configuraciones#0" />
-                <element signature="method#borraComponente#0;class#Configuraciones#0" />
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4751#4752#0" expanded="true" />
-                <element signature="e#4802#4803#0" expanded="true" />
-                <element signature="e#4821#4822#0" expanded="true" />
                 <element signature="method#Respuestas2Filtros#0;class#Configuraciones#0" />
-                <element signature="method#GenerarPCs#0;class#Configuraciones#0" />
-                <element signature="e#9773#9774#0" expanded="true" />
-                <element signature="e#9831#9832#0" expanded="true" />
                 <element signature="method#main#0;class#Configuraciones#0" />
               </folding>
             </state>
@@ -54,12 +43,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Componentes/PlacaBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-792">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConfiguracionesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="138">
+              <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#respuestas2Filtros#0;class#ConfiguracionesTest#0" />
+                <element signature="method#numero#0;class#ConfiguracionesTest#0" />
+                <element signature="method#varias#0;class#ConfiguracionesTest#0" />
+                <element signature="method#una#0;class#ConfiguracionesTest#0" />
+                <element signature="method#mockingComponents#0;class#ConfiguracionesTest#0" />
               </folding>
             </state>
           </provider>
@@ -84,6 +96,11 @@
       <find>PC</find>
       <find>compar</find>
       <find>return pcs</find>
+      <find>toString</find>
+      <find>getPCs</find>
+      <find>pcs.add</find>
+      <find>System.o</find>
+      <find>setPre</find>
     </findStrings>
     <replaceStrings>
       <replace>ArrayList</replace>
@@ -126,7 +143,6 @@
         <option value="$PROJECT_DIR$/src/Cuestionario_idk.java" />
         <option value="$PROJECT_DIR$/src/Componentes/PC.java" />
         <option value="$PROJECT_DIR$/src/Configuraciones.java" />
-        <option value="$PROJECT_DIR$/src/ConfiguracionesTest.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Componente.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Carcasa.java" />
         <option value="$PROJECT_DIR$/src/Componentes/CPU.java" />
@@ -136,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/Componentes/PlacaBase.java" />
         <option value="$PROJECT_DIR$/src/Componentes/RAM.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" />
+        <option value="$PROJECT_DIR$/src/ConfiguracionesTest.java" />
         <option value="$PROJECT_DIR$/src/Componentes/Configuraciones.java" />
       </list>
     </option>
@@ -190,7 +207,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559421492850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559423150060" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mockito-all-1.9.5.jar/mockito-all-1.9.5.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -360,7 +377,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559237414258</updated>
       <workItem from="1559237420504" duration="10514000" />
-      <workItem from="1559408374852" duration="10640000" />
+      <workItem from="1559408374852" duration="12350000" />
     </task>
     <task id="LOCAL-00003" summary="CumplePresupuesto añadida a al interfaz">
       <created>1559237505893</created>
@@ -460,43 +477,50 @@
       <option name="project" value="LOCAL" />
       <updated>1559418814312</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Proyecto con las clases del diagrama bueno implementadas">
+      <created>1559421515145</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559421515145</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 35m 59s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 56m 26s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 36m 19s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 57m 04s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 37m 02s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 57m 27s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 39m 34s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 57m 46s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 27m 54s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 58m 06s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 28m 14s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 58m 36s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 28m 38s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 59m 33s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 17h 41m 34s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 23h 00m 53s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 17h 41m 43s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 23h 02m 01s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 20h 11m 17s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 23h 02m 56s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32711000" />
+    <option name="totallyTimeSpent" value="34421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -520,7 +544,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928944" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.35344827" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.7573657" visible="true" weight="0.121317156" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.7573657" visible="true" weight="0.24436742" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.20130932" />
@@ -661,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -692,13 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componentes/PlacaBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -727,24 +737,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/PlacaBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConfiguracionesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="138">
+          <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#respuestas2Filtros#0;class#ConfiguracionesTest#0" />
+            <element signature="method#numero#0;class#ConfiguracionesTest#0" />
+            <element signature="method#varias#0;class#ConfiguracionesTest#0" />
+            <element signature="method#una#0;class#ConfiguracionesTest#0" />
+            <element signature="method#mockingComponents#0;class#ConfiguracionesTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Configuraciones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="192" column="33" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
+        <state relative-caret-position="173">
+          <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
           <folding>
-            <element signature="method#Configuraciones#0;class#Configuraciones#0" />
-            <element signature="method#Configuraciones#1;class#Configuraciones#0" />
-            <element signature="method#Configuraciones#2;class#Configuraciones#0" />
             <element signature="e#1463#1464#0" expanded="true" />
             <element signature="e#1495#1496#0" expanded="true" />
             <element signature="method#setCPU#0;class#Configuraciones#0" />
@@ -756,15 +782,7 @@
             <element signature="method#setTarjetaRed#0;class#Configuraciones#0" />
             <element signature="method#setFuenteAlimentacion#0;class#Configuraciones#0" />
             <element signature="method#setComponente#0;class#Configuraciones#0" />
-            <element signature="method#borraComponente#0;class#Configuraciones#0" />
-            <element signature="e#4725#4726#0" expanded="true" />
-            <element signature="e#4751#4752#0" expanded="true" />
-            <element signature="e#4802#4803#0" expanded="true" />
-            <element signature="e#4821#4822#0" expanded="true" />
             <element signature="method#Respuestas2Filtros#0;class#Configuraciones#0" />
-            <element signature="method#GenerarPCs#0;class#Configuraciones#0" />
-            <element signature="e#9773#9774#0" expanded="true" />
-            <element signature="e#9831#9832#0" expanded="true" />
             <element signature="method#main#0;class#Configuraciones#0" />
           </folding>
         </state>
