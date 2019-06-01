@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Mojarra-2.2.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - Batch Applications" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - JSF" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - JMS: Java Message Service" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - Bean Validation" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - JSON Processing (JSR 353)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - CDI: Contexts and Dependency Injection" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - Concurrency Utils (JSR 236)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - EJB" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - Connector Architecture (JSR 322)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - RESTful Web Service" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - Transaction API (JSR 907)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.1.0 - WebSocket" level="application_server_libraries" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="JUnit5.3">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="JUnit5.3">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
