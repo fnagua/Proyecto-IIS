@@ -1,0 +1,19 @@
+CLASES DEL DIAGRAMA DE CLASES EXPLICADAS CADA UNO CON SU FUNCIÓN Y UTILIZACIÓN:
+-PROVEEDORES: Mantiene informacion sobre las empresas que proporcionan los componentes.
+-COMPONENTES: Generalizacion de todos los tipos de componentes que pueden formar una configuracion.
+-USUARIO: Tiene la informacion de los usuarios y de las configuraciones que estos crean.
+-CONFIGURACIONES: Son creadas por los usuarios y mantienen la informacion de los componentes que componen la configuracion.
+-COMPRA: Mantiene informacion sobre las compras de configuraciones que pueden realizar los usuarios.
+-REPARTIDOR: Guarda informacion sobre el personal de reparto por ejemplo: la zona donde reparte.
+-PERSONAL: Generalizacion de los diferentes roles que tienen los miembros de la empresa.
+-ADMIN: ------- (No sabemos seguro aun)
+LAS DIFERENTES CLASES TIENEN UN FUNCIONAMIENTO SIMILAR:
+Mantienen informacion concreta sobre las caracteristicas de los distintos componentes.
+-CPU
+-RAM
+-PLACA BASE
+-GRAFICA
+-CARCASA
+-TARJETA DE RED
+-DISCO DURO
+-FUENTE DE ALIMENTACION
