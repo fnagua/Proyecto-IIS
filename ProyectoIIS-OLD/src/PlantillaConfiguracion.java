@@ -23,7 +23,6 @@ public class PlantillaConfiguracion
         {
             componentes.add(null);
         }
-
         //cpus
         CPU cpu0 = new CPU("Intel Core i5-8400",(float)193.99,"LGA1151",2666,42);
         CPU cpu1 = new CPU("Intel Core i3-8100",(float)120.99,"LGA1151",2400,65);
