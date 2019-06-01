@@ -1,0 +1,63 @@
++MEMORIAS RAM: total 13
+Marca/Modelo;Capacidad(GB);Velocidad(MHz);Precio(€);Consumo(W);
+
+G.Skill;Trident Z RGB;16;3200;129;6;
+Corsair;Vengeance LPX;16;3000;94'99;4;
+Corsair;Vengeance LPX;32;3200;188;6;
+Corsair;Vengeance RGB Pro;32;3200;249;6;
+G.Skill;Ripjaws V Red;64;2400;399;7;
+G.Skill;Trident Z RGB;64;3200;849;8;
+G.Skill;Trident Z RGB;64;3333;699;8;
+Kingston;HyperX Fury Black;8;2400;49;3;
+HyperX;Predator;16;4000;199;5;
+G.Skill;Aegis;4;2133;29'99;3;
+Crucial; 2400 PC4-19200 4GB CL17;4;2400;26,28;3;
+Crucial; 2400 PC4-19200 8GB CL17;8;2400;45;3;
+HyperX;Predator RGB;8;4000;99;4;
+--------------------------------------------------------------------------
++PLACAS BASE: total 15
+
+Marca/Modelo;Socket;Frecuencia(MHz);Tamaño;Precio;
+
+Gigabyte;GA-B360M DS3H;LGA1151;2666;MicroATX;71’99;6;
+Gigabyte;B450M DS3H;AM4;2993;MicroATX;67’99;6;
+Gigabyte;Z390 Gaming X;LGA1151;2666;ATX;140’99;8;
+Asus;Prime B250M-A;LGA1151;2400;MicroATX;63’99;10;
+Asus;Prime B360M-A;LGA1151;2666;MicroATX;80;6;
+MSI;Z370-A PRO;LGA1151;2666;ATX;104’90;10;
+MSI;X470 GAMING PLUS;AM4;3466;ATX;134’90;10;
+Asus;Prime B450M-A;AM4;MicroATX;69’99;6;
+Gigabyte;GA-H110M-S2H;H110;2133;32;MicroATX;50’99;8;
+MSI;B360M Bazooka;LGA1151;2666;ATX;84’99;6;
+MSI;MPG Z390 Carbon;LGA1151;2666;ATX;204’90;8;
+Gigabyte;X299 UD4 Pro;LGA2066;2666;DRR4;ATX;243’00;15;
+MSI;Meg Z390 Ace;LGA1151;2666;ATX;284’90;8;
+MSI;Z390-A PRO;LGA1151;2666;ATX;129’90;10;
+Asrock;H110 Pro BTC+;LGA1151;2400;34’99;5;
+--------------------------------------------------------------------
++PROCESADORES: total 15
+Marca/Modelo;Socket;Frecuencia RAM(MHz);Tecnologia Memoria(DDRX);Precio;Consumo(W);
+
+Intel;Core i5-8400;LGA1151;2666;DDR4;193’99;42;
+Intel;Core i3-8100;LGA1151;2400;DDR4;120’99;65;
+Intel;Core i7-7700;LGA1151;2400;DDR4;314’90;65;
+Intel;Pentium G4560;LGA1151;2400;DDR4;62’99;54;
+Intel;Core i7-8700K;LGA1151;2666;DDR4;379’90;95;
+Intel;Core i5-8700K;LGA1151;2666;DDR4;263,99;95;
+Intel;Celereon G4920;LGA1151;2400;DDR4;59’99;54;
+AMD;Ryzen 3;AM4;DDR4;64;65;64;92’99;65;
+AMD;Ryzen 5 1600X;AM4;2400;DDR4;139’90;95;
+AMD;Ryzen 7 2700;AM4;2993;DDR4;230’99;100;
+AMD;A6-9500;3;AM4;2400;DDR4;50’99;35;
+AMD;Athlon 240GE;AM4;2667;DDR4;71’99;43;
+AMD;A12-9800E;AM4;2400;DDR4;104’99;51;
+----------------------------------------------------------------
+CAJA: 6 total
+Marca/Modelo;Tamaño Placa;Tamaño Fuente;Iluminacion(0,1);ºPrecio;
+
+Tempest;Spectra;ATX;ATX;1;34’99;
+Tempest;Ghost;ATX;ATX;1;59’99;
+Nfortec;Orion;ATX;ATX;0;34’99;
+Nfortec;Vega;ATX;ATX;1;79’99;
+Phanteks;Eclipse P400S;ATX;ATX;1;91;
+Nox;Hummer;ATX;ATX;1;44’55;
