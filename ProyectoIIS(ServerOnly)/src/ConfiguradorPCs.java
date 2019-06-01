@@ -4,32 +4,6 @@ import java.util.*;
 
 public class ConfiguradorPCs
 {
-    public static void main(String[] args)
-	{
-		String[] uso = {"ofimatica", "gaming", "disenio", "edicion"};
-		String[] capacidad = {"250GB", "500GB", "1TB", "2TB", "4TB"};
-		String[] tamanio = {"pequeño", "mediano", "indiferente"};
-		String[] so = {"windows", "linux", "otros"};
-		String[] opcionales = {"cds", "tarjetared", "tarjetasonido"};
-		String[] iluminacion = {"si", "no"};
-
-		ConfiguradorPCs cps = new ConfiguradorPCs();
-		List<List<String>> respuesta = new LinkedList<List<String>>();
-		List<String> filtros = new LinkedList<String>();
-		List<String> aux = new LinkedList<String>();
-
-
-		numero(respuesta);
-		varias(respuesta, uso);
-		una(respuesta, capacidad);
-		una(respuesta, tamanio);
-		una(respuesta, so);
-		varias(respuesta, opcionales);
-		una(respuesta, iluminacion);
-
-		filtros = cps.Respuestas2Filtros(respuesta);
-
-	}
 
     public List<String> Respuestas2Filtros(List<List<String>> respuestas)
     {
@@ -153,46 +127,5 @@ public class ConfiguradorPCs
 
 		return filtros;
     }
-
-
-	private static void  numero(List<List<String>> l) {
-		List<String> aux = new LinkedList<String>();
-		Random r = new Random();
-		int aleatorio;
-
-		aleatorio = r.nextInt(4000);
-		aux.add(Integer.toString(aleatorio));
-
-		l.add(aux);
-	}
-
-	private static void varias(List<List<String>> l, String[] s) {
-		List<String> aux = new LinkedList<String>();
-		Random r = new Random();
-		int aleatorio;
-
-		for (int i=0; i<s.length; i++) {
-			if (r.nextBoolean()) {
-				aux.add(s[i]);
-			}
-		}
-
-		if (aux.isEmpty()) {
-			aleatorio = r.nextInt(s.length);
-			aux.add(s[aleatorio]);
-		}
-
-		l.add(aux);
-	}
-
-	private static void una(List<List<String>> l, String[] s) {
-		List<String> aux = new LinkedList<String>();
-		Random r = new Random();
-		int aleatorio;
-
-		aleatorio = r.nextInt(s.length);
-		aux.add(s[aleatorio]);
-		l.add(aux);
-	}
 
 }

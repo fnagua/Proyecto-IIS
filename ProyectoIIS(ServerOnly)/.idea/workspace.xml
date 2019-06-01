@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/PlantillaConfiguracion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoIIS(ServerOnly)/PlantillaConfiguracion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componentes/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/PC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConfiguradorPCs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfiguradorPCs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConfiguradorPCsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfiguradorPCsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlantillaConfiguracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlantillaConfiguracion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,91 +17,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Componentes/PC.java">
+        <entry file="file://$PROJECT_DIR$/src/Componentes/Componente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4338#4339#0" expanded="true" />
-                <element signature="e#4365#4366#0" expanded="true" />
-                <element signature="e#4505#4506#0" expanded="true" />
-                <element signature="e#4532#4533#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
+        <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#703#717#0" expanded="true" />
-                <element signature="e#766#774#0" expanded="true" />
-                <element signature="e#819#827#0" expanded="true" />
-                <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
-                <element signature="e#1908#1916#0" expanded="true" />
-                <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
-                <element signature="e#2189#2197#0" expanded="true" />
-                <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
-                <element signature="e#2635#2643#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
-              <folding>
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="method#Respuestas2Filtros#0;class#ConfiguradorPCs#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
+        <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="150" column="16" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+            <state relative-caret-position="123">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
-                <element signature="e#572#586#0" expanded="true" />
-                <element signature="e#635#643#0" expanded="true" />
-                <element signature="e#688#696#0" expanded="true" />
-                <element signature="method#numero#0;class#ConfiguradorPCs#0" />
-                <element signature="e#3037#3045#0" expanded="true" />
-                <element signature="method#varias#0;class#ConfiguradorPCs#0" />
-                <element signature="e#3318#3326#0" expanded="true" />
-                <element signature="method#una#0;class#ConfiguradorPCs#0" />
-                <element signature="e#3764#3772#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#respuestas2Filtros#0;class#ConfiguradorPCsTest#0" />
+                <element signature="e#706#720#0" expanded="true" />
+                <element signature="e#769#777#0" expanded="true" />
+                <element signature="e#822#830#0" expanded="true" />
+                <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
+                <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
+                <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
               </folding>
             </state>
           </provider>
@@ -131,27 +75,27 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/home.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start_g_0.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_1.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_3.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start_c_1.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/CPU.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/RAM.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/BDComponentes.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Cuestionario_idk.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/PC.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Usuario.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start_g_0.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/home.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start_c_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_3.xhtml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Componentes/Grafica.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Usuario.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/BDComponentes.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/PC.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/CPU.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/RAM.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -167,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/Componentes/CPU.java" />
         <option value="$PROJECT_DIR$/src/Componentes/PC.java" />
         <option value="$PROJECT_DIR$/src/PlantillaConfiguracion.java" />
-        <option value="$PROJECT_DIR$/src/ConfiguradorPCsTest.java" />
         <option value="$PROJECT_DIR$/src/ConfiguradorPCs.java" />
+        <option value="$PROJECT_DIR$/src/ConfiguradorPCsTest.java" />
       </list>
     </option>
   </component>
@@ -183,6 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,8 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,7 +207,7 @@
         <option name="COMPATIBILITY" value="false" />
         <option name="VIRTUAL_SERVER" />
         <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="" />
+        <option name="CREDENTIAL_ALIAS" />
       </server-settings>
       <predefined_log_file enabled="true" id="GlassFish" />
       <RunnerSettings RunnerId="Debug">
@@ -325,6 +269,7 @@
       <module name="ProyectoIIS(ServerOnly)" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConfiguradorPCsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -427,21 +372,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 28m 04s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 28m 53s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 30m 24s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 32m 53s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 34m 27s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 35m 24s.xml">
       <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
     </history-entry>
@@ -457,16 +387,31 @@
     <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 39m 34s.xml">
       <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 27m 54s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 28m 14s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 28m 38s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 17h 41m 34s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 17h 41m 43s.xml">
+      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21081000" />
+    <option name="totallyTimeSpent" value="22071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24436742" weight="0.2631579" />
-      <window_info active="true" id="Run" order="1" sideWeight="0.7556326" side_tool="true" visible="true" weight="0.39190283" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24436742" weight="0.20272315" />
+      <window_info id="Run" order="1" sideWeight="0.7556326" side_tool="true" visible="true" weight="1.0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -480,14 +425,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928944" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32928944" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928944" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.35344827" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.20277481" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3188908" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.20130932" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.31751227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Componente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -701,39 +646,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="51">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#703#717#0" expanded="true" />
-            <element signature="e#766#774#0" expanded="true" />
-            <element signature="e#819#827#0" expanded="true" />
-            <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
-            <element signature="e#1908#1916#0" expanded="true" />
-            <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
-            <element signature="e#2189#2197#0" expanded="true" />
-            <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
-            <element signature="e#2635#2643#0" expanded="true" />
+            <element signature="method#Respuestas2Filtros#0;class#ConfiguradorPCs#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
+    <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="150" column="16" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+        <state relative-caret-position="123">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
-            <element signature="e#572#586#0" expanded="true" />
-            <element signature="e#635#643#0" expanded="true" />
-            <element signature="e#688#696#0" expanded="true" />
-            <element signature="method#numero#0;class#ConfiguradorPCs#0" />
-            <element signature="e#3037#3045#0" expanded="true" />
-            <element signature="method#varias#0;class#ConfiguradorPCs#0" />
-            <element signature="e#3318#3326#0" expanded="true" />
-            <element signature="method#una#0;class#ConfiguradorPCs#0" />
-            <element signature="e#3764#3772#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#respuestas2Filtros#0;class#ConfiguradorPCsTest#0" />
+            <element signature="e#706#720#0" expanded="true" />
+            <element signature="e#769#777#0" expanded="true" />
+            <element signature="e#822#830#0" expanded="true" />
+            <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
+            <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
+            <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
           </folding>
         </state>
       </provider>
