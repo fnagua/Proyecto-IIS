@@ -26,7 +26,7 @@ public class Tarjeta_Red implements Componente
         return precio;
     }
 
-    public boolean getCompatibilidad(PC pc)
+    public boolean getCompatibilidad(Configuraciones pc)
     {
         boolean res = false;
 
@@ -39,7 +39,7 @@ public class Tarjeta_Red implements Componente
         return res;
     }
 
-    public boolean cumplePresupuesto(PC pc)
+    public boolean cumplePresupuesto(Configuraciones pc)
     {
         boolean res = false;
 

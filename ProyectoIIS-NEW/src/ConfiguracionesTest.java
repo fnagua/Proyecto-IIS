@@ -1,3 +1,5 @@
+import Componentes.Configuraciones;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -16,7 +18,7 @@ class ConfiguracionesTest {
         String[] opcionales = {"cds", "tarjetared", "tarjetasonido"};
         String[] iluminacion = {"si", "no"};
 
-        Configuraciones cps = new Configuraciones();
+        Configuraciones cps = new Configuraciones(200);
         List<List<String>> respuesta = new LinkedList<>();
         List<String> filtros = new LinkedList<>();
         List<String> aux = new LinkedList<>();

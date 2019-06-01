@@ -35,7 +35,7 @@ public class CPU implements Componente{
 		return frecuenciaMem;
 	}
 
-	public boolean getCompatibilidad(PC pc) {
+	public boolean getCompatibilidad(Configuraciones pc) {
 		boolean res = false;
 
 		if (pc.getComponentes().get(0)==null && cumplePresupuesto(pc) )
@@ -46,7 +46,7 @@ public class CPU implements Componente{
 		return res;
 	}
 
-	public boolean cumplePresupuesto(PC pc)
+	public boolean cumplePresupuesto(Configuraciones pc)
 	{
 		boolean res = false;
 

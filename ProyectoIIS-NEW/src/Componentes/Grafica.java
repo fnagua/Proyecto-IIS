@@ -28,7 +28,7 @@ public class Grafica implements Componente
         return consumo;
     }
 
-    public boolean getCompatibilidad(PC pc)
+    public boolean getCompatibilidad(Configuraciones pc)
     {
         boolean res = false;
 
@@ -41,7 +41,7 @@ public class Grafica implements Componente
         return res;
     }
 
-    public boolean cumplePresupuesto(PC pc)
+    public boolean cumplePresupuesto(Configuraciones pc)
     {
         boolean res = false;
 

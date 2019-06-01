@@ -75,7 +75,7 @@ public class PlacaBase implements Componente
 	}
 
 	@Override
-	public boolean getCompatibilidad(PC pc)
+	public boolean getCompatibilidad(Configuraciones pc)
 	{
 		boolean ok = false;
 		if(pc.getCPU().getSocket().equals(this.socket) && cumplePresupuesto(pc))
@@ -86,7 +86,7 @@ public class PlacaBase implements Componente
 		return ok && cumplePresupuesto(pc);
 	}
 
-	public boolean cumplePresupuesto(PC pc)
+	public boolean cumplePresupuesto(Configuraciones pc)
 	{
 		return (pc.getPrecioAcumulado()+this.precio)<pc.getPrecioMax();
 

@@ -36,7 +36,7 @@ public class Carcasa implements Componente{
 		return ilum;
 	}
 
-	public boolean getCompatibilidad(PC pc) {
+	public boolean getCompatibilidad(Configuraciones pc) {
 		boolean res = false;
 
 
@@ -47,7 +47,7 @@ public class Carcasa implements Componente{
 		return res;
 	}
 
-	public boolean cumplePresupuesto(PC pc) {
+	public boolean cumplePresupuesto(Configuraciones pc) {
 		boolean res = false;
 
 		if (pc.getPrecioAcumulado()+this.precio <= pc.getPrecioMax()) {

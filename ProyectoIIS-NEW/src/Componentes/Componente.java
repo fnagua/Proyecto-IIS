@@ -2,9 +2,9 @@ package Componentes;
 
 public interface Componente {
 
-    boolean getCompatibilidad(PC pc);
+    boolean getCompatibilidad(Configuraciones pc);
 
-    boolean cumplePresupuesto(PC pc);
+    boolean cumplePresupuesto(Configuraciones pc);
 
     float getPrecio();
 

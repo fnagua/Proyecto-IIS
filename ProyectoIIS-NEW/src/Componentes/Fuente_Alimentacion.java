@@ -56,13 +56,13 @@ public class Fuente_Alimentacion implements Componente
     }
 
     @Override
-    public boolean getCompatibilidad(PC pc)
+    public boolean getCompatibilidad(Configuraciones pc)
     {
         return cumplePresupuesto(pc) && pc.getConsumoAcumulado()<=this.voltaje;
     }
 
     @Override
-    public boolean cumplePresupuesto(PC pc)
+    public boolean cumplePresupuesto(Configuraciones pc)
     {
         return (pc.getPrecioAcumulado()+this.getPrecio() <= pc.getPrecioMax());
     }
