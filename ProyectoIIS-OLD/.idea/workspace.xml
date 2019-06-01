@@ -2,7 +2,564 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ConfiguradorPCs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfiguradorPCs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProyectoIIS-NEW/src/Configuraciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/artifacts/pimArtifact.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/libraries/Mojarra_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/ProyectoIIS(ServerOnly).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/lib/javax.faces-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/WEB-INF/classes/META-INF/ddddddd.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/WEB-INF/lib/javax.faces-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/data/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/data/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/home/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/home/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/page_1/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/page_1/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/page_2/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/page_2/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/page_3/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/files/page_3/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/images/home/u14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/images/home/u2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/images/home/u4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/images/page_2/u20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/images/page_2/u29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/page_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/page_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/page_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/debug.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/reset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/reset_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/variables_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/variables_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/variables_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/variables_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/variables_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/debug/styles/images/variables_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/back_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/back_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/footnotes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/footnotes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/footnotes_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/footnotes_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/footnotes_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/footnotes_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/forward_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/forward_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/notes_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/notes_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/notes_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/notes_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/notes_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/images/notes_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/page_notes/styles/page_notes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/recordplay/recordplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/recordplay/styles/recordplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/079_page_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/086_case_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/225_responsive_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/228_togglenotes_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/229_variables_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/231_event_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/232_search_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/233_hyperlink_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/235_folderclosed_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/236_folderopen_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/adaptivecheck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/folder_closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/folder_closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/folder_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/folder_open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/hotspots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/hotspots.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/hotspots_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/hotspots_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/hotspots_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/hotspots_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/minus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/page.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/plus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/share_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/share_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/share_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/share_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/sitemap_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/sitemap_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/sitemap_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/sitemap_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/sitemap_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/sitemap_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/views.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/views.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/views_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/views_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/views_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/images/views_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/plugins/sitemap/styles/sitemap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/Other.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/allow-access.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/axure-chrome-extension.crx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/axure_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/chrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/details.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/extensions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/safari.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/safari_advanced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/safari_restrictions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/splitter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/chrome/splitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/axure_rp_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/newwindow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/note.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/jquery-ui-themes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/expand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/259_close_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/259_close_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/260_collapse_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/260_collapse_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/261_expand_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/261_expand_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/close_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/close_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/divider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/divider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/expand_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/expand_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/images/transparent.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/reload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/jquery-ui-1.8.10.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/messagecenter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/player/axplayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/player/splitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/prototypePost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/prototypePre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/startPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/resources/scripts/startPre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/start_c_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd/start_g_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd_war_exploded/WEB-INF/lib/javax.faces-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/ddddddd_war_exploded/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/BDComponentes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/CPU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/ConfiguradorPCs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/Cuestionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/META-INF/ProyectoIIS(ServerOnly).kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/PlantillaConfiguracion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/RAM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/classes/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/lib/javax.faces-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/data/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/data/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/home/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/home/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/page_1/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/page_1/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/page_2/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/page_2/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/page_3/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/files/page_3/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/home.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/images/home/u14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/images/home/u2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/images/home/u4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/images/page_2/u20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/images/page_2/u29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/images/page_2/u73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/page_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/page_1.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/page_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/page_2.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/page_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/page_3.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/debug.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/reset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/reset_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/variables_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/variables_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/variables_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/variables_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/variables_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/debug/styles/images/variables_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/back_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/back_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/footnotes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/footnotes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/footnotes_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/footnotes_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/footnotes_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/footnotes_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/forward_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/forward_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/notes_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/notes_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/notes_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/notes_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/notes_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/images/notes_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/page_notes/styles/page_notes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/recordplay/recordplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/recordplay/styles/recordplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/079_page_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/086_case_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/225_responsive_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/228_togglenotes_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/229_variables_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/231_event_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/232_search_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/233_hyperlink_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/235_folderclosed_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/236_folderopen_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/adaptivecheck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/folder_closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/folder_closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/folder_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/folder_open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/hotspots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/hotspots.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/hotspots_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/hotspots_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/hotspots_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/hotspots_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/minus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/page.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/plus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/share_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/share_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/share_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/share_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/sitemap_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/sitemap_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/sitemap_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/sitemap_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/sitemap_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/sitemap_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/views.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/views.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/views_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/views_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/views_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/images/views_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/plugins/sitemap/styles/sitemap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/Other.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/allow-access.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/axure-chrome-extension.crx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/axure_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/chrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/details.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/extensions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/safari.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/safari_advanced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/safari_restrictions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/splitter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/chrome/splitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/axure_rp_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/newwindow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/note.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/jquery-ui-themes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/expand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/259_close_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/259_close_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/260_collapse_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/260_collapse_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/261_expand_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/261_expand_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/close_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/close_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/divider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/divider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/expand_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/expand_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/images/transparent.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/reload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/jquery-ui-1.8.10.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/messagecenter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/player/axplayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/player/splitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/prototypePost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/prototypePre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/startPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/resources/scripts/startPre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/start.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/start_c_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/start_c_1.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/start_g_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/artifacts/pimArtifact/start_g_0.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/production/ProyectoIIS(ServerOnly)/PlantillaConfiguracion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/out/production/ddddddd/META-INF/ddddddd.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/BDComponentes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/CPU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/Carcasa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/Componente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/Disco_Duro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/Fuente_Alimentacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/Grafica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/PC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/PlacaBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/RAM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Componentes/Tarjeta_Red.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/ConfiguradorPCs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/ConfiguradorPCsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Cuestionario_idk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/PlantillaConfiguracion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/src/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/data/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/data/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/home/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/home/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/page_1/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/page_1/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/page_2/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/page_2/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/page_3/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/files/page_3/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/home.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/images/home/u14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/images/home/u2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/images/home/u4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/images/page_2/u20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/images/page_2/u29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/images/page_2/u73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/page_1.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/page_2.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/page_3.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/debug.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/reset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/reset_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/variables_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/variables_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/variables_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/variables_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/variables_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/debug/styles/images/variables_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/back_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/back_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/footnotes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/footnotes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/footnotes_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/footnotes_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/footnotes_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/footnotes_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/forward.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/forward_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/forward_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/notes_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/notes_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/notes_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/notes_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/notes_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/images/notes_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/page_notes/styles/page_notes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/recordplay/recordplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/recordplay/styles/recordplay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/079_page_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/086_case_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/225_responsive_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/228_togglenotes_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/229_variables_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/231_event_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/232_search_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/233_hyperlink_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/235_folderclosed_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/236_folderopen_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/adaptivecheck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/folder_closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/folder_closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/folder_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/folder_open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/hotspots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/hotspots.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/hotspots_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/hotspots_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/hotspots_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/hotspots_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/minus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/note.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/note.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/page.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/plus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/share_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/share_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/share_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/share_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/sitemap_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/sitemap_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/sitemap_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/sitemap_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/sitemap_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/sitemap_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/views.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/views.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/views_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/views_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/views_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/images/views_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/plugins/sitemap/styles/sitemap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/Other.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/allow-access.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/axure-chrome-extension.crx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/axure_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/chrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/details.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/extensions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/safari.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/safari_advanced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/safari_restrictions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/splitter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/chrome/splitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/axure_rp_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/newwindow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/note.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_glass_75_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-bg_inset-soft_95_fef1ec_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/jquery-ui-themes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/expand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/259_close_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/259_close_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/260_collapse_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/260_collapse_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/261_expand_12rollover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/261_expand_12rollover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/close_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/close_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/divider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/divider.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/expand_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/expand_hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/images/transparent.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/reload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/jquery-ui-1.8.10.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/messagecenter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/player/axplayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/player/splitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/prototypePost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/prototypePre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/startPost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/resources/scripts/startPre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/start.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/start_c_1.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoIIS(ServerOnly)/web/start_g_0.xhtml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +594,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="187">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#respuestas2Filtros#0;class#ConfiguradorPCsTest#0" />
-                <element signature="e#706#720#0" expanded="true" />
-                <element signature="e#769#777#0" expanded="true" />
-                <element signature="e#822#830#0" expanded="true" />
                 <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
                 <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
                 <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,28 +640,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/home.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_3.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start_c_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start_g_0.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/page_1.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/RAM.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Grafica.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/BDComponentes.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/CPU.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Componentes/PC.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/start.xhtml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Cuestionario_idk.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Usuario.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/index.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_2.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_1.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start_g_0.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/home.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/start_c_1.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/page_3.xhtml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Tarjeta_Red.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Grafica.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Disco_Duro.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/BDComponentes.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Fuente_Alimentacion.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/Carcasa.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/PC.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/CPU.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Componentes/RAM.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -116,41 +682,34 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="297" />
-    <option name="y" value="-17" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="width" value="980" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ProyectoIIS(ServerOnly)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectoIIS(ServerOnly)" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoIIS-OLD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoIIS-OLD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProyectoIIS(ServerOnly)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectoIIS(ServerOnly)" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoIIS-OLD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoIIS-OLD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectoIIS(ServerOnly)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectoIIS(ServerOnly)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Componentes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +722,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559331818710" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProyectoIIS-NEW" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +766,7 @@
         <option name="COMPATIBILITY" value="false" />
         <option name="VIRTUAL_SERVER" />
         <option name="USERNAME" value="admin" />
-        <option name="CREDENTIAL_ALIAS" />
+        <option name="PASSWORD" value="" />
       </server-settings>
       <predefined_log_file enabled="true" id="GlassFish" />
       <RunnerSettings RunnerId="Debug">
@@ -269,7 +828,6 @@
       <module name="ProyectoIIS(ServerOnly)" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConfiguradorPCsTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,6 +876,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559237414258</updated>
       <workItem from="1559237420504" duration="10514000" />
+      <workItem from="1559408293424" duration="615000" />
     </task>
     <task id="LOCAL-00003" summary="CumplePresupuesto añadida a al interfaz">
       <created>1559237505893</created>
@@ -404,13 +963,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22071000" />
+    <option name="totallyTimeSpent" value="22686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="653" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24436742" weight="0.20272315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.24436742" visible="true" weight="0.31365937" />
       <window_info id="Run" order="1" sideWeight="0.7556326" side_tool="true" visible="true" weight="1.0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -499,13 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="433" column="16" selection-start-line="433" selection-start-column="16" selection-end-line="433" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componentes/Componente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -615,18 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1722">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
-            <element signature="e#2926#2927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/CPU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -646,6 +1186,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componentes/Componente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -658,17 +1205,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConfiguradorPCsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="187">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#respuestas2Filtros#0;class#ConfiguradorPCsTest#0" />
-            <element signature="e#706#720#0" expanded="true" />
-            <element signature="e#769#777#0" expanded="true" />
-            <element signature="e#822#830#0" expanded="true" />
             <element signature="method#numero#0;class#ConfiguradorPCsTest#0" />
             <element signature="method#varias#0;class#ConfiguradorPCsTest#0" />
             <element signature="method#una#0;class#ConfiguradorPCsTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlantillaConfiguracion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
