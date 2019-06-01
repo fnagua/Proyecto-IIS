@@ -181,7 +181,17 @@ public class Configuraciones implements Comparable<Configuraciones>
 
     public String toString()
     {
-        return componentesconf.toString() + " \nPrecio: " + this.precioAcumulado + "\n";
+        return componentesconf.toString();
+    }
+
+    public SortedSet<Configuraciones> getPcs()
+    {
+        return pcs;
+    }
+
+    public void setPresupuesto(float presupuesto)
+    {
+        this.precioMax=presupuesto;
     }
 
 
@@ -294,7 +304,7 @@ public class Configuraciones implements Comparable<Configuraciones>
     {
         if (completo(pc))
         {
-            System.out.println("\nEl pc " + pc + " esta lleno, y se añade\n");
+            //System.out.println("\nEl pc " + pc + " esta lleno, y se añade\n");
             Configuraciones pcaux = new Configuraciones(pc);
             pcs.add(pcaux);
 
@@ -311,7 +321,7 @@ public class Configuraciones implements Comparable<Configuraciones>
                 {
                     pc.setComponente(comp, cmp);
 
-                    System.out.println("Se añade el componente " + cmp.toString() + "\n" + pc.getComponentes() + "\n" + pc.getPrecioAcumulado());
+                    //System.out.println("Se añade el componente " + cmp.toString() + "\n" + pc.getComponentes() + "\n" + pc.getPrecioAcumulado());
 
 
                     GenerarPCs(comp + 1, pc, componentesfilt);
@@ -333,13 +343,6 @@ public class Configuraciones implements Comparable<Configuraciones>
     }
 
     //--------------------------------Main para probar cosas----------------------------
-    public static void main(String[] args)
-    {
 
-
-        GenerarPCs(0, new Configuraciones(1800), componentesfilt);
-
-        System.out.println("PCs configurados: " + pcs + "\nNumero de pcs configurados: " + pcs.size());
-    }
 
 }

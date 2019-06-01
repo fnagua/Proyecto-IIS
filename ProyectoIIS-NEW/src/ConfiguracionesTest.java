@@ -1,9 +1,6 @@
 import Componentes.*;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 import static org.mockito.Mockito.*;
 
@@ -82,15 +79,15 @@ class ConfiguracionesTest {
         cc = new Configuraciones(r.nextInt(2000)+134);
         cc.GenerarPCs(0,new Configuraciones(), comp.obtenerComponentes());
 
-        assertNotNull(cc.getComponentes());     //lista de componentes no nulos
+        assertNotNull(cc.getPcs());     //lista de configuraciones
 
         //-------------------------
 
-        cc = new Configuraciones(0);
+        cc.setPresupuesto((float)0);
         cc.GenerarPCs(0,new Configuraciones(), comp.obtenerComponentes());
+        SortedSet<Configuraciones> vacio = new TreeSet<>();
 
-        assertEquals(, new List<List<Componente>>);
-
+        assertEquals(cc.getPcs(), vacio);
 
 
     }

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="">
+    <list default="true" id="0def1e17-876f-4c74-89a6-75aa58540b61" name="Default Changelist" comment="Added Mockito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoIIS(ServerOnly).iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoIIS(ServerOnly).iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componentes/Configuraciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/Configuraciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConfiguracionesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfiguracionesTest.java" afterDir="false" />
     </list>
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Componentes/Configuraciones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="337" selection-start-line="337" selection-end-line="337" />
+            <state relative-caret-position="119">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
               <folding>
                 <element signature="method#Configuraciones#0;class#Configuraciones#0" />
                 <element signature="method#Configuraciones#1;class#Configuraciones#0" />
@@ -38,8 +37,17 @@
                 <element signature="method#setFuenteAlimentacion#0;class#Configuraciones#0" />
                 <element signature="method#setComponente#0;class#Configuraciones#0" />
                 <element signature="method#borraComponente#0;class#Configuraciones#0" />
+                <element signature="e#4573#4574#0" expanded="true" />
+                <element signature="e#4622#4623#0" expanded="true" />
+                <element signature="e#4721#4722#0" expanded="true" />
+                <element signature="e#4748#4749#0" expanded="true" />
+                <element signature="e#4816#4817#0" expanded="true" />
+                <element signature="e#4858#4859#0" expanded="true" />
+                <element signature="e#4767#4768#0" expanded="true" />
+                <element signature="e#4845#4846#0" expanded="true" />
                 <element signature="method#Respuestas2Filtros#0;class#Configuraciones#0" />
-                <element signature="method#GenerarPCs#0;class#Configuraciones#0" />
+                <element signature="e#9676#9677#0" expanded="true" />
+                <element signature="e#9734#9735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ConfiguracionesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+            <state relative-caret-position="361">
+              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#respuestas2Filtros#0;class#ConfiguracionesTest#0" />
@@ -89,6 +97,7 @@
       <find>public Con</find>
       <find>PC</find>
       <find>compar</find>
+      <find>tos</find>
     </findStrings>
     <replaceStrings>
       <replace>ArrayList</replace>
@@ -209,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Configuraciones">
+  <component name="RunManager" selected="JUnit.ConfiguracionesTest.GeneraPCs">
     <configuration name="Configuraciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Componentes.Configuraciones" />
       <module name="ProyectoIIS(ServerOnly)" />
@@ -219,13 +228,6 @@
     </configuration>
     <configuration name="ConfiguradorPCs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConfiguradorPCs" />
-      <module name="ProyectoIIS(ServerOnly)" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlantillaConfiguracion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlantillaConfiguracion" />
       <module name="ProyectoIIS(ServerOnly)" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,6 +306,16 @@
         </option>
       </method>
     </configuration>
+    <configuration name="ConfiguracionesTest.GeneraPCs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoIIS(ServerOnly)" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConfiguracionesTest" />
+      <option name="METHOD_NAME" value="GeneraPCs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfiguradorPCsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProyectoIIS(ServerOnly)" />
       <option name="PACKAGE_NAME" value="" />
@@ -325,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConfiguracionesTest.GeneraPCs" />
         <item itemvalue="Application.Configuraciones" />
         <item itemvalue="JUnit.ConfiguradorPCsTest.respuestas2Filtros" />
         <item itemvalue="Application.ConfiguradorPCs" />
         <item itemvalue="JUnit.ConfiguradorPCsTest" />
-        <item itemvalue="Application.PlantillaConfiguracion" />
       </list>
     </recent_temporary>
   </component>
@@ -437,55 +449,63 @@
       <option name="project" value="LOCAL" />
       <updated>1559414566123</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added Mockito">
+      <created>1559419795407</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559419795407</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 35m 59s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 17m 31s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 36m 19s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 18m 21s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 37m 02s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 19m 22s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.05.31 at 21h 39m 34s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 19m 49s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 27m 54s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 21m 08s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 28m 14s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 22m 42s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 16h 28m 38s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 23m 00s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 17h 41m 34s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 23m 46s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 17h 41m 43s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 25m 50s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfiguradorPCsTest_respuestas2Filtros - 2019.06.01 at 20h 11m 17s.xml">
-      <configuration name="ConfiguradorPCsTest.respuestas2Filtros" configurationId="JUnit" />
+    <history-entry file="ConfiguracionesTest_GeneraPCs - 2019.06.01 at 22h 26m 12s.xml">
+      <configuration name="ConfiguracionesTest.GeneraPCs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28958000" />
+    <option name="totallyTimeSpent" value="30023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.24263431" visible="true" weight="0.22844176" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24222586" weight="0.4364599" />
+      <window_info active="true" id="Run" order="1" sideWeight="0.7577741" side_tool="true" visible="true" weight="0.4364599" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.58925474" />
       <window_info anchor="bottom" id="Web" order="2" sideWeight="0.83739835" weight="0.16008538" />
@@ -494,14 +514,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928944" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928944" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.35344827" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.7573657" visible="true" weight="0.24090122" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.20130932" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.58578855" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.20130932" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.58578855" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -562,7 +581,8 @@
     <MESSAGE value="mejorado el algoritmo de backtracking" />
     <MESSAGE value="combiada la prueba del configura con mas componentes" />
     <MESSAGE value="Proyecto con las clases del diagrama bueno implementadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto con las clases del diagrama bueno implementadas" />
+    <MESSAGE value="Added Mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Mockito" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -659,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componentes/Configuraciones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        <state relative-caret-position="119">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding>
             <element signature="method#Configuraciones#0;class#Configuraciones#0" />
             <element signature="method#Configuraciones#1;class#Configuraciones#0" />
@@ -675,16 +695,25 @@
             <element signature="method#setFuenteAlimentacion#0;class#Configuraciones#0" />
             <element signature="method#setComponente#0;class#Configuraciones#0" />
             <element signature="method#borraComponente#0;class#Configuraciones#0" />
+            <element signature="e#4573#4574#0" expanded="true" />
+            <element signature="e#4622#4623#0" expanded="true" />
+            <element signature="e#4721#4722#0" expanded="true" />
+            <element signature="e#4748#4749#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
+            <element signature="e#4858#4859#0" expanded="true" />
+            <element signature="e#4767#4768#0" expanded="true" />
+            <element signature="e#4845#4846#0" expanded="true" />
             <element signature="method#Respuestas2Filtros#0;class#Configuraciones#0" />
-            <element signature="method#GenerarPCs#0;class#Configuraciones#0" />
+            <element signature="e#9676#9677#0" expanded="true" />
+            <element signature="e#9734#9735#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConfiguracionesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+        <state relative-caret-position="361">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#respuestas2Filtros#0;class#ConfiguracionesTest#0" />
