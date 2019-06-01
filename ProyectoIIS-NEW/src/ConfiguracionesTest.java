@@ -9,8 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ConfiguracionesTest {
 
     @org.junit.jupiter.api.Test
-    void respuestas2Filtros()
-    {
+    void respuestas2Filtros() {
         String[] uso = {"ofimatica", "gaming", "disenio", "edicion"};
         String[] capacidad = {"250GB", "500GB", "1TB", "2TB", "4TB"};
         String[] tamanio = {"pequeño", "normal", "indiferente"};
@@ -63,6 +62,11 @@ class ConfiguracionesTest {
 
     }
 
+    @org.junit.jupiter.api.Test
+    void GeneraPCs() {
+
+    }
+
     private void  numero(List<List<String>> l) {
         List<String> aux = new LinkedList<String>();
         Random r = new Random();
@@ -72,7 +76,7 @@ class ConfiguracionesTest {
         aux.add(Integer.toString(aleatorio));
 
         l.add(aux);
-    }
+    }       //respuestas2Filtros
 
     private void varias(List<List<String>> l, String[] s) {
         List<String> aux = new LinkedList<String>();
@@ -91,7 +95,7 @@ class ConfiguracionesTest {
         }
 
         l.add(aux);
-    }
+    }       //respuestas2Filtros
 
     private void una(List<List<String>> l, String[] s) {
         List<String> aux = new LinkedList<String>();
@@ -101,7 +105,7 @@ class ConfiguracionesTest {
         aleatorio = r.nextInt(s.length);
         aux.add(s[aleatorio]);
         l.add(aux);
-    }
+    }       //respuestas2Filtros
 
 }
 
@@ -118,6 +122,14 @@ List<List<String>>
 4   SO                  (windows, linux, otros)                 una
 5   opcionales          (cds, tarjetared, tarjetasonido)        varias
 6   iluminacion         (si, no)                                una
+
+ */
+
+/*
+List<List<Componente>>
+
+
+
 
 
 
