@@ -1,6 +1,6 @@
 package Componentes;
 
-public class Tarjeta_Red implements Componente
+public class Tarjeta_Red extends Componente
 {
     private String nombre;//marca+modelo
     private float precio;
@@ -21,11 +21,13 @@ public class Tarjeta_Red implements Componente
         return nombre;
     }
 
+    @Override
     public float getPrecio()
     {
         return precio;
     }
 
+    @Override
     public boolean getCompatibilidad(Configuraciones pc)
     {
         boolean res = false;
@@ -39,6 +41,7 @@ public class Tarjeta_Red implements Componente
         return res;
     }
 
+    @Override
     public boolean cumplePresupuesto(Configuraciones pc)
     {
         boolean res = false;
@@ -50,6 +53,7 @@ public class Tarjeta_Red implements Componente
         return res;
     }
 
+    @Override
     public String toString()
     {
         return this.nombre;

@@ -1,6 +1,6 @@
 package Componentes;
 
-public class CPU implements Componente{
+public class CPU extends Componente{
 
 	private String nombre;//marca+modelo
 	private float precio;
@@ -23,6 +23,7 @@ public class CPU implements Componente{
 		return nombre;
 	}
 
+	@Override
 	public float getPrecio() {
 		return precio;
 	}
@@ -35,6 +36,7 @@ public class CPU implements Componente{
 		return frecuenciaMem;
 	}
 
+	@Override
 	public boolean getCompatibilidad(Configuraciones pc) {
 		boolean res = false;
 
@@ -46,6 +48,7 @@ public class CPU implements Componente{
 		return res;
 	}
 
+	@Override
 	public boolean cumplePresupuesto(Configuraciones pc)
 	{
 		boolean res = false;
@@ -58,6 +61,7 @@ public class CPU implements Componente{
 		return res;
 	}
 
+	@Override
 	public String toString ()
 	{
 		return this.nombre;

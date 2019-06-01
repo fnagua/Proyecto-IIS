@@ -1,6 +1,6 @@
 package Componentes;
 
-public class Fuente_Alimentacion implements Componente
+public class Fuente_Alimentacion extends Componente
 {
 
     private String nombre;//marca+modelo
@@ -35,6 +35,7 @@ public class Fuente_Alimentacion implements Componente
         this.nombre = nombre;
     }
 
+    @Override
     public float getPrecio()
     {
         return precio;
@@ -67,6 +68,7 @@ public class Fuente_Alimentacion implements Componente
         return (pc.getPrecioAcumulado()+this.getPrecio() <= pc.getPrecioMax());
     }
 
+    @Override
     public String toString()
     {
         return this.nombre;

@@ -449,7 +449,7 @@ public class Configuraciones implements Comparable<Configuraciones>
         Carcasa cc1 = new Carcasa("Tempest Spectra ATX", "ATX", (float) 1, 1, (float) 34.99, 0);
         Carcasa cc2 = new Carcasa("Sample MicroATX", "MicroATX", (float) 1, 1, (float) 19.99, 0);
         Carcasa cc3 = new Carcasa("Sample2 ATX", "ATX", (float) 1, 1, (float) 22.99, 0);
-        Carcasa cc4 = new Carcasa("HighQuality ATX", "ATX", (float) 1, 1, (float) 49.99, 0);
+        Carcasa cc4 = new Carcasa("HighQuality ATX", "ATX", (float) 1, 1, (float) 200.99, 0);
         Carcasa cc5 = new Carcasa("LowQuality ATX", "ATX", (float) 1, 1, (float) 10.99, 0);
         Carcasa cc6 = new Carcasa("HQuality MicroATX", "MicroATX", (float) 1, 1, (float) 40.99, 0);
         Carcasa cc7 = new Carcasa("Regular MicroATX", "MicroATX", (float) 1, 1, (float) 15.99, 0);
@@ -465,7 +465,7 @@ public class Configuraciones implements Comparable<Configuraciones>
 
         componentesfilt.set(3, lcc);
 
-        GenerarPCs(0, new Configuraciones(10000), componentesfilt);
+        GenerarPCs(0, new Configuraciones(1800), componentesfilt);
 
         System.out.println("PCs configurados: " + pcs + "\nNumero de pcs configurados: " + pcs.size());
     }

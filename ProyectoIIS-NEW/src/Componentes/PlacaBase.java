@@ -1,6 +1,6 @@
 package Componentes;
 
-public class PlacaBase implements Componente
+public class PlacaBase extends Componente
 {
 	private String nombre;//marca+modelo
 	private float precio;
@@ -34,6 +34,7 @@ public class PlacaBase implements Componente
 		this.nombre = nombre;
 	}
 
+	@Override
 	public float getPrecio()
 	{
 		return precio;
@@ -86,12 +87,14 @@ public class PlacaBase implements Componente
 		return ok && cumplePresupuesto(pc);
 	}
 
+	@Override
 	public boolean cumplePresupuesto(Configuraciones pc)
 	{
 		return (pc.getPrecioAcumulado()+this.precio)<pc.getPrecioMax();
 
 	}
 
+	@Override
 	public String toString ()
 	{
 		return this.nombre;

@@ -1,6 +1,6 @@
 package Componentes;
 
-public class Disco_Duro implements Componente
+public class Disco_Duro extends Componente
 {
     private String nombre;//marca+modelo
     private float precio;
@@ -16,6 +16,7 @@ public class Disco_Duro implements Componente
         this.nombre = nombre;
     }
 
+    @Override
     public float getPrecio() {
         return precio;
     }
@@ -48,6 +49,7 @@ public class Disco_Duro implements Componente
         this.consumo = consumo;
     }
 
+    @Override
     public boolean getCompatibilidad(Configuraciones pc)
     {
         boolean res = false;
@@ -61,6 +63,7 @@ public class Disco_Duro implements Componente
         return res;
     }
 
+    @Override
     public boolean cumplePresupuesto(Configuraciones pc)
     {
         boolean res = false;
@@ -73,6 +76,7 @@ public class Disco_Duro implements Componente
         return res;
     }
 
+    @Override
     public String toString()
     {
         return this.nombre;

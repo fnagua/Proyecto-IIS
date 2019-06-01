@@ -1,6 +1,6 @@
 package Componentes;
 
-public class RAM implements Componente
+public class RAM extends Componente
 {
 
 	private String nombre;//marca+modelo
@@ -26,6 +26,7 @@ public class RAM implements Componente
 		return nombre;
 	}
 
+	@Override
 	public float getPrecio() {
 		return precio;
 	}
@@ -38,6 +39,7 @@ public class RAM implements Componente
 		return frecuencia;
 	}
 
+	@Override
 	public boolean getCompatibilidad(Configuraciones pc)
 	{
 		boolean res = false;
@@ -50,6 +52,7 @@ public class RAM implements Componente
 		return res;
 	}
 
+	@Override
 	public boolean cumplePresupuesto(Configuraciones pc)
 	{
 		boolean res = false;
@@ -62,6 +65,7 @@ public class RAM implements Componente
 		return res;
 	}
 
+	@Override
 	public String toString ()
 	{
 		return this.nombre;
