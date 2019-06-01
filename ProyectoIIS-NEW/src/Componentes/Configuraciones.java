@@ -1,15 +1,11 @@
 package Componentes;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.StringJoiner;
+import java.util.*;
 
 
 public class Configuraciones implements Comparable<Configuraciones>
 {
-    public static List<List<Componente>> componentesfilt = new LinkedList<>();
-    public static List<Configuraciones> pcs = new LinkedList<>();
+    public static SortedSet<Configuraciones> pcs = new TreeSet<>();
     private List<Componente> componentesconf;
     private float precioMax;
     private float precioAcumulado;
@@ -27,7 +23,6 @@ public class Configuraciones implements Comparable<Configuraciones>
         this.precioMax=Integer.MAX_VALUE;
         this.precioAcumulado=0;
         this.consumoAcumulado=0;
-
     }
 
     public Configuraciones(Configuraciones pc)
@@ -38,13 +33,15 @@ public class Configuraciones implements Comparable<Configuraciones>
         this.consumoAcumulado = pc.getConsumoAcumulado();
     }
 
-    public Configuraciones(float precioMax) {
+    public Configuraciones(float precioMax)
+    {
         this.componentesconf = new LinkedList<Componente>();
         this.precioMax = precioMax;
         this.precioAcumulado = 0;
         this.consumoAcumulado = 0;
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++)
+        {
             componentesconf.add(null);
         }
         // System.out.println(componentes);
@@ -54,102 +51,119 @@ public class Configuraciones implements Comparable<Configuraciones>
         return precioMax;
     }
 
-    public float getPrecioAcumulado() {
+    public float getPrecioAcumulado()
+    {
         return precioAcumulado;
     }
 
-    public List<Componente> getComponentes() {
+    public List<Componente> getComponentes()
+    {
         return this.componentesconf;
     }
 
 
-    public void setCPU(CPU cpu) {
+    public void setCPU(CPU cpu)
+    {
         componentesconf.add(0, (Componente) cpu);
         this.precioAcumulado += cpu.getPrecio();
         this.consumoAcumulado += cpu.getConsumo();
     }
 
-    public CPU getCPU() {
+    public CPU getCPU()
+    {
         return (CPU) componentesconf.get(0);
     }
 
 
-    public void setRAM(RAM ram) {
+    public void setRAM(RAM ram)
+    {
         this.componentesconf.add(1, (Componente) ram);
         this.precioAcumulado += ram.getPrecio();
         this.consumoAcumulado += ram.getConsumo();
     }
 
-    public RAM getRAM() {
+    public RAM getRAM()
+    {
         return (RAM) this.componentesconf.get(1);
     }
 
 
-    public void setPlacaBase(PlacaBase pb) {
+    public void setPlacaBase(PlacaBase pb)
+    {
         this.componentesconf.add(2, (Componente) pb);
         this.precioAcumulado += pb.getPrecio();
         this.consumoAcumulado += pb.getConsumo();
     }
 
-    public PlacaBase getPlacaBase() {
+    public PlacaBase getPlacaBase()
+    {
         return (PlacaBase) this.componentesconf.get(2);
     }
 
 
-    public void setGrafica(Grafica g) {
+    public void setGrafica(Grafica g)
+    {
         this.componentesconf.add(3, (Componente) g);
         this.precioAcumulado += g.getPrecio();
         this.consumoAcumulado += g.getConsumo();
     }
 
-    public Grafica getGrafica() {
+    public Grafica getGrafica()
+    {
         return (Grafica) this.componentesconf.get(3);
     }
 
-    public void setDiscoDuro(Disco_Duro dd) {
+    public void setDiscoDuro(Disco_Duro dd)
+    {
         this.componentesconf.add(4, (Componente) dd);
         this.precioAcumulado += dd.getPrecio();
         this.consumoAcumulado += dd.getConsumo();
-
     }
 
-    public Disco_Duro getDisco_Duro() {
+    public Disco_Duro getDisco_Duro()
+    {
         return (Disco_Duro) this.componentesconf.get(4);
     }
 
 
-    public void setCarcasa(Carcasa c) {
+    public void setCarcasa(Carcasa c)
+    {
         this.componentesconf.add(5, (Componente) c);
         this.precioAcumulado += c.getPrecio();
     }
 
-    public Carcasa getCarcasa() {
+    public Carcasa getCarcasa()
+    {
         return (Carcasa) this.componentesconf.get(5);
     }
 
 
-    public void setTarjetaRed(Tarjeta_Red tr) {
+    public void setTarjetaRed(Tarjeta_Red tr)
+    {
         this.componentesconf.add(6, (Componente) tr);
         this.precioAcumulado += tr.getPrecio();
         this.consumoAcumulado += tr.getConsumo();
     }
 
-    public Tarjeta_Red getTarjetaRed() {
+    public Tarjeta_Red getTarjetaRed()
+    {
         return (Tarjeta_Red) this.componentesconf.get(6);
     }
 
 
-    public void setFuenteAlimentacion(Fuente_Alimentacion fa) {
+    public void setFuenteAlimentacion(Fuente_Alimentacion fa)
+    {
         this.componentesconf.add(7, fa);
         this.precioAcumulado += fa.getPrecio();
     }
 
-    public Fuente_Alimentacion getFuenteAlimentacion() {
-
+    public Fuente_Alimentacion getFuenteAlimentacion()
+    {
         return (Fuente_Alimentacion) this.componentesconf.get(7);
     }
 
-    public void setComponente(int ind, Componente cmp) {
+    public void setComponente(int ind, Componente cmp)
+    {
         this.componentesconf.set(ind, cmp);
         this.precioAcumulado += cmp.getPrecio();
         // System.out.println("\nse añade "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
@@ -165,7 +179,8 @@ public class Configuraciones implements Comparable<Configuraciones>
         //System.out.println("\nse quita "+cmp+" "+cmp.getPrecio()+", precio actual "+getPrecioAcumulado()+"\n");
     }
 
-    public String toString() {
+    public String toString()
+    {
         return componentesconf.toString() + " \nPrecio: " + this.precioAcumulado + "\n";
     }
 
@@ -175,7 +190,9 @@ public class Configuraciones implements Comparable<Configuraciones>
         return Math.round(this.precioAcumulado - pisi.precioAcumulado);
     }
 
-    public List<String> Respuestas2Filtros(List<List<String>> respuestas) {
+    //-----------------------------Funciones implementadas para testing------------------------------------
+    public List<String> Respuestas2Filtros(List<List<String>> respuestas)
+    {
         List<String> filtros = new ArrayList<>();
 
 
@@ -272,6 +289,50 @@ public class Configuraciones implements Comparable<Configuraciones>
         return filtros;
     }
 
+
+    public static void GenerarPCs(int comp, Configuraciones pc, List<List<Componente>> componentesfilt)
+    {
+        if (completo(pc))
+        {
+            System.out.println("\nEl pc " + pc + " esta lleno, y se añade\n");
+            Configuraciones pcaux = new Configuraciones(pc);
+            pcs.add(pcaux);
+
+        }
+        else
+        {
+            List<Componente> lc = componentesfilt.get(comp);
+            System.out.println(lc);
+            for (int i = 0; i < lc.size(); i++) {
+                Componente cmp = lc.get(i);
+                System.out.println(pc.getComponentes());
+
+                if (cmp.getCompatibilidad(pc))
+                {
+                    pc.setComponente(comp, cmp);
+
+                    System.out.println("Se añade el componente " + cmp.toString() + "\n" + pc.getComponentes() + "\n" + pc.getPrecioAcumulado());
+
+
+                    GenerarPCs(comp + 1, pc, componentesfilt);
+                }
+
+                if (pc.getComponentes().get(comp) != null)
+                {
+                    pc.borraComponente(comp, pc.getComponentes().get(comp));
+                }
+            }
+        }
+    }
+
+
+
+    private static boolean completo(Configuraciones pc)
+    {
+        return !pc.getComponentes().contains(null);
+    }
+
+    //--------------------------------Main para probar cosas----------------------------
     public static void main(String[] args)
     {
         List<List<Componente>> componentesfilt = new LinkedList<>();
@@ -384,60 +445,29 @@ public class Configuraciones implements Comparable<Configuraciones>
         componentesfilt.set(2, lpb);
         // System.out.println(componentes);
 
-
         //Placa base //nombre-socket-frecuencia-tamaño-precio
         Carcasa cc1 = new Carcasa("Tempest Spectra ATX", "ATX", (float) 1, 1, (float) 34.99, 0);
+        Carcasa cc2 = new Carcasa("Sample MicroATX", "MicroATX", (float) 1, 1, (float) 19.99, 0);
+        Carcasa cc3 = new Carcasa("Sample2 ATX", "ATX", (float) 1, 1, (float) 22.99, 0);
+        Carcasa cc4 = new Carcasa("HighQuality ATX", "ATX", (float) 1, 1, (float) 49.99, 0);
+        Carcasa cc5 = new Carcasa("LowQuality ATX", "ATX", (float) 1, 1, (float) 10.99, 0);
+        Carcasa cc6 = new Carcasa("HQuality MicroATX", "MicroATX", (float) 1, 1, (float) 40.99, 0);
+        Carcasa cc7 = new Carcasa("Regular MicroATX", "MicroATX", (float) 1, 1, (float) 15.99, 0);
 
         List<Componente> lcc = new ArrayList<>();
         lcc.add(cc1);
+        lcc.add(cc2);
+        lcc.add(cc3);
+        lcc.add(cc4);
+        lcc.add(cc5);
+        lcc.add(cc6);
+        lcc.add(cc7);
 
         componentesfilt.set(3, lcc);
 
-        GenerarPCs(0, new Configuraciones(200), componentesfilt);
+        GenerarPCs(0, new Configuraciones(10000), componentesfilt);
 
         System.out.println("PCs configurados: " + pcs + "\nNumero de pcs configurados: " + pcs.size());
-
-
-    }
-
-    public static void GenerarPCs(int comp, Configuraciones pc, List<List<Componente>> componentesfilt)
-    {
-        if (completo(pc))
-        {
-            System.out.println("\nEl pc " + pc + " esta lleno, y se añade\n");
-            Configuraciones pcaux = new Configuraciones(pc);
-            pcs.add(pcaux);
-
-        }
-        else
-        {
-            List<Componente> lc = componentesfilt.get(comp);
-            System.out.println(lc);
-            for (int i = 0; i < lc.size(); i++) {
-                Componente cmp = lc.get(i);
-                System.out.println(pc.getComponentes());
-
-                if (cmp.getCompatibilidad(pc))
-                {
-                    pc.setComponente(comp, cmp);
-
-                    System.out.println("Se añade el componente " + cmp.toString() + "\n" + pc.getComponentes() + "\n" + pc.getPrecioAcumulado());
-
-
-                    GenerarPCs(comp + 1, pc, componentesfilt);
-                }
-
-                if (pc.getComponentes().get(comp) != null)
-                {
-                    pc.borraComponente(comp, pc.getComponentes().get(comp));
-                }
-            }
-        }
-    }
-
-    private static boolean completo(Configuraciones pc)
-    {
-        return !pc.getComponentes().contains(null);
     }
 
 }
