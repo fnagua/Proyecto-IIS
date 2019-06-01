@@ -48,7 +48,7 @@ public class Disco_Duro implements Componente
         this.consumo = consumo;
     }
 
-    public boolean getCompatibilidad(PC pc)
+    public boolean getCompatibilidad(Configuraciones pc)
     {
         boolean res = false;
 
@@ -61,7 +61,7 @@ public class Disco_Duro implements Componente
         return res;
     }
 
-    public boolean cumplePresupuesto(PC pc)
+    public boolean cumplePresupuesto(Configuraciones pc)
     {
         boolean res = false;
 
