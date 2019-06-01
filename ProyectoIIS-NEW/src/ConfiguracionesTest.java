@@ -86,6 +86,8 @@ class ConfiguracionesTest {
         cc.setPresupuesto((float)0);
         cc.GenerarPCs(0,new Configuraciones(), comp.obtenerComponentes());
         SortedSet<Configuraciones> vacio = new TreeSet<>();
+        Configuraciones c = new Configuraciones();
+        vacio.add(c);
 
         assertEquals(cc.getPcs(), vacio);
 
